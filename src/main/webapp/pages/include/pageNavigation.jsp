@@ -93,14 +93,14 @@
                 </div>
                 <!-- start: MAIN NAVIGATION MENU -->
                 <ul class="main-navigation-menu">
-                    <li class="active open">
+                    <li>
                         <a href="${basepath}/user"><i class="fa fa-home"></i> <span class="title"> 首页 </span>
                             <%--<span class="label label-default pull-right ">更新</span>--%>
                         </a>
                     </li>
                     <c:forEach items="${userToken.menulist}" var="menu" varStatus="stat0">
                         <c:if test="${menu.parentId==''}">
-                            <li>
+                            <li <c:if test="${menu.id==menuparentidcg}">class="active open"</c:if>>
                                 <a href="${basepath}${menu.href}">
                                     <i class="fa fa-cogs"></i> <span class="title"> ${menu.name} </span><i
                                         class="icon-arrow"></i> <span class="arrow "></span>
@@ -109,7 +109,7 @@
                                 <ul class="sub-menu" id="menu_${stat0.index+1}">
                                     <c:forEach items="${userToken.menulist}" var="menusubtwo" varStatus="stat1">
                                         <c:if test="${menusubtwo.parentId==menu.id}">
-                                            <li>
+                                            <li <c:if test="${menusubtwo.id==menuidcg}">class="active"</c:if>>
                                                 <a href="${basepath}${menusubtwo.href}"> ${menusubtwo.name} <i
                                                         class="icon-arrow"></i>
                                                 </a>

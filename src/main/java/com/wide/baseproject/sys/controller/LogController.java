@@ -2,6 +2,7 @@ package com.wide.baseproject.sys.controller;
 
 import java.util.List;
 
+import com.wide.base.BaseController;
 import com.wide.common.model.Log;
 import com.wide.common.model.query.QueryLog;
 import com.wide.viewmodel.DataTablesModel;
@@ -10,7 +11,7 @@ import com.jfinal.aop.Enhancer;
 import com.jfinal.core.Controller;
 import com.jfinal.plugin.activerecord.Db;
 
-public class LogController extends Controller {
+public class LogController extends BaseController {
 	private static final LogService logService = Enhancer.enhance(LogService.class);
 
 	/**
@@ -21,7 +22,7 @@ public class LogController extends Controller {
 		String id=getPara("id");
 		 List<Log> listlog = logService.getAlllog();
 		 setAttr("listlog", listlog);
-		render("Log.jsp");
+        renderCG("Log.jsp");
 	}
 
 	/**

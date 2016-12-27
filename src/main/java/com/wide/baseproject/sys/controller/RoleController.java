@@ -82,7 +82,7 @@ public class RoleController extends BaseController {
         renderCG("");
 		List<Dict> listd = dictService.getDictByType("1001");
 		setAttr("listdict", listd);
-		render("roleList.jsp");
+        renderCG("roleList.jsp");
 	}
 
 	/**
@@ -119,7 +119,7 @@ public class RoleController extends BaseController {
 		// setAttr("rightids",vrole.getRightids());
 		// setAttr("offids",vrole.getOffids());
 		setAttr("message", mark);
-		render("roleInfo.jsp");
+        renderCG("roleInfo.jsp");
 	}
 
 	/**

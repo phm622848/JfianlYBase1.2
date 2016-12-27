@@ -8,6 +8,7 @@ import javax.servlet.http.HttpSession;
 import com.jfinal.aop.Before;
 import com.jfinal.aop.Enhancer;
 import com.jfinal.core.Controller;
+import com.wide.base.BaseController;
 import com.wide.baseproject.sys.service.MenuService;
 import com.wide.baseproject.sys.service.UserService;
 import com.wide.common.model.Menu;
@@ -18,7 +19,7 @@ import com.wide.util.CGUtil;
 import com.wide.validator.MenuValidator;
 import com.wide.viewmodel.ViewTree;
 
-public class MenuController extends Controller
+public class MenuController extends BaseController
 {
 	private static final MenuService menuService = Enhancer.enhance(MenuService.class);
 	private static final UserService userService = Enhancer.enhance(UserService.class);
@@ -39,7 +40,7 @@ public class MenuController extends Controller
 	{
 		List<Menu> listm = menuService.getMenuAll();
 		setAttr("listmenu", listm);
-		render("menuList.jsp");
+        renderCG("menuList.jsp");
 	}
 
 	/**
@@ -56,7 +57,7 @@ public class MenuController extends Controller
 		setAttr("pmenu", pmenu);
 		String mark = getPara("message");
 		setAttr("message", mark);
-		render("menuinfo.jsp");
+        renderCG("menuinfo.jsp");
 	}
 
 	/**
@@ -125,7 +126,7 @@ public class MenuController extends Controller
 		}
 		List<Menu> listm = menuService.getMenuAll();
 		setAttr("listmenu", listm);
-		render("menuList.jsp");
+        renderCG("menuList.jsp");
 	}
 
 	/**

@@ -3,24 +3,25 @@ package com.wide.baseproject.sys.controller;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 
+import com.wide.base.BaseController;
 import com.wide.base.MailKit;
 import com.wide.util.PathUtil;
 import com.jfinal.core.Controller;
 
-public class FileController extends Controller{
+public class FileController extends BaseController {
 	/**
 	 * @author cg
 	 * 进入文件管理
 	 * */
 	public void add(){
-		render("fileSys.jsp");
+        renderCG("fileSys.jsp");
 	}
 	/**
 	 * @author cg
 	 * 邮件发送
 	 * */
 	public void addmailinfo(){
-		render("sendEmail.jsp");
+        renderCG("sendEmail.jsp");
 	}
 	/**
 	 * @author cg

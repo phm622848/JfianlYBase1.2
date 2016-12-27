@@ -4,10 +4,11 @@ import java.util.List;
 
 import com.jfinal.aop.Enhancer;
 import com.jfinal.core.Controller;
+import com.wide.base.BaseController;
 import com.wide.baseproject.sys.service.RightService;
 import com.wide.viewmodel.ViewTree;
 
-public class RightController extends Controller {
+public class RightController extends BaseController {
 	private static final RightService rightService = Enhancer.enhance(RightService.class);
 	
 	 /**

@@ -53,6 +53,7 @@
 <script src="${basepath}/static/rapido/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
 <script src="${basepath}/static/rapido/assets/js/subview.js"></script>
 <script src="${basepath}/static/frame/jquery-ztree/3.5.12/js/jquery.ztree.all-3.5.min.js"></script>
+<script src="${basepath}/static/rapido/assets/plugins/treeTable/jquery.treeTable.min.js"></script>
 <!-- end: JAVASCRIPTS REQUIRED FOR SUBVIEW CONTENTS -->
 <!-- start: CORE JAVASCRIPTS  -->
 <script src="${basepath}/static/rapido/assets/js/main.js"></script>

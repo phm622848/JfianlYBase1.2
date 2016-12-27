@@ -75,7 +75,7 @@ public class UserController extends BaseController {
 	public void add() {
 		List<Dict> listd = dictService.getDictByType("1003");
 		setAttr("listdict", listd);
-		render("userList.jsp");
+        renderCG("userList.jsp");
 	}
 
 	/**
@@ -129,7 +129,7 @@ public class UserController extends BaseController {
 		setAttr("userToken", ut);
 		String mark = getPara("message");
 		setAttr("message", mark);
-		render("addinfo.jsp");
+        renderCG("addinfo.jsp");
 	}
 	/**
 	 * @author ycl 默认首页
@@ -143,7 +143,7 @@ public class UserController extends BaseController {
 		
 		
 		setAttr("message", mark);
-		render("main.jsp");
+        renderCG("main.jsp");
 	}
 
 	/**
@@ -163,7 +163,7 @@ public class UserController extends BaseController {
 	public void addpass() {		
 		String mark = getPara("message");
 		setAttr("message", mark);
-		render("myEditPass.jsp");
+        renderCG("myEditPass.jsp");
 	}
 
 	/**
@@ -228,7 +228,7 @@ public class UserController extends BaseController {
 		setAttr("offids", officeids);
 		setAttr("roleids", roleids);
 		setAttr("officenames", officenames);
-		render("userInfo.jsp");
+        renderCG("userInfo.jsp");
 	}
 
 	/**

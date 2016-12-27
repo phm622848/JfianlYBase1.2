@@ -7,6 +7,7 @@ import java.util.List;
 import javax.servlet.http.HttpSession;
 
 
+import com.wide.base.BaseController;
 import com.wide.config.UserToken;
 import com.wide.constant.EnumFuncType;
 import com.wide.constant.EnumOptType;
@@ -26,7 +27,7 @@ import com.jfinal.core.Controller;
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
 
-public class AreaController extends Controller
+public class AreaController extends BaseController
 {
 	private static final AreaService areaService = Enhancer.enhance(AreaService.class);
 	private static final UserService userService = Enhancer.enhance(UserService.class);
@@ -92,7 +93,7 @@ public class AreaController extends Controller
 		setAttr("areaname", getPara("areaname"));
 		setAttr("listarea", lista);
 		setAttr("listdict", listd);
-		render("areaList.jsp");
+        renderCG("areaList.jsp");
 	}
 
 	/**
@@ -113,7 +114,7 @@ public class AreaController extends Controller
 		setAttr("parea", parea);
 		String mark = getPara("message");
 		setAttr("message", mark);
-		render("areainfo.jsp");
+        renderCG("areainfo.jsp");
 	}
 	
 	@Clear
@@ -173,7 +174,7 @@ public class AreaController extends Controller
 		   List<Dict> listd = dictService.getDictByType("1010"); // 通过type值查询该type值所有的数据
 		    // 向前台传值
 		   setAttr("listdict", listd);
-		   render("areainfo.jsp");
+        renderCG("areainfo.jsp");
 	}
 
 	/**
@@ -199,7 +200,7 @@ public class AreaController extends Controller
 		@SuppressWarnings("static-access")
 		List<Area> lista = areaService.getAreaAll();
 		setAttr("listarea", lista);
-		render("areaList.jsp");
+        renderCG("areaList.jsp");
 	}
 
 	/**

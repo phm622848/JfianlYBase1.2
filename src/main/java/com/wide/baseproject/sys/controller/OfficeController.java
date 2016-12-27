@@ -11,6 +11,7 @@ import com.jfinal.aop.Enhancer;
 import com.jfinal.core.Controller;
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
+import com.wide.base.BaseController;
 import com.wide.baseproject.sys.service.AreaService;
 import com.wide.baseproject.sys.service.DictService;
 import com.wide.baseproject.sys.service.LogService;
@@ -27,7 +28,7 @@ import com.wide.constant.EnumOptType;
 import com.wide.util.CGUtil;
 import com.wide.viewmodel.ViewTree;
 
-public class OfficeController extends Controller {
+public class OfficeController extends BaseController {
 	private static final OfficeService officeService = Enhancer
 			.enhance(OfficeService.class);
 	private static final RoleService roleService = Enhancer
@@ -104,7 +105,7 @@ public class OfficeController extends Controller {
 		String message = getPara("message");
 		setAttr("message", message);
 		setAttr("officelist", officelist);
-		render("officeList.jsp");
+        renderCG("officeList.jsp");
 	}
 
 	/**
@@ -148,7 +149,7 @@ public class OfficeController extends Controller {
 		setAttr("areaid", areaid);
 		setAttr("parentId", pid);
 		setAttr("message", mark);
-		render("officeInfo.jsp");
+        renderCG("officeInfo.jsp");
 	}
 
 	/**

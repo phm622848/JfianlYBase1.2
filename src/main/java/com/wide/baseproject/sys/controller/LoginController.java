@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.wide.base.BaseController;
 import org.apache.log4j.Logger;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
@@ -30,7 +31,7 @@ import com.wide.interceptor.CaptchaFormAuthenticationInterceptor;
 import com.wide.util.captcha.CaptchaRender;
 import com.wide.viewmodel.ViewUser;
 
-public class LoginController extends Controller {
+public class LoginController extends BaseController {
 	//注入service 可以Enhancer.enhance 也可以Duang.duang()
 	public static final LoginService loginService = Enhancer.enhance(LoginService.class);
 	private static final MenuService menuService = Enhancer.enhance(MenuService.class);

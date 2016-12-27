@@ -7,6 +7,7 @@ import java.util.UUID;
 
 import javax.servlet.http.HttpSession;
 
+import com.wide.base.BaseController;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 
 import com.wide.config.UserToken;
@@ -25,7 +26,7 @@ import com.jfinal.core.Controller;
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
 
-public class DictController extends Controller {
+public class DictController extends BaseController {
 
 	private static final DictService dictService = Enhancer
 			.enhance(DictService.class);
@@ -51,7 +52,7 @@ public class DictController extends Controller {
 	 */
 	@RequiresPermissions("dict:add")
 	public void add() {
-		render("dictlist.jsp");
+        renderCG("dictlist.jsp");
 
 	}
 
@@ -97,7 +98,7 @@ public class DictController extends Controller {
 				}
 				setAttr("dict", dict);
 				setAttr("message", "success");
-				render("dictinfo.jsp");
+                renderCG("dictinfo.jsp");
 			}
 		} catch (Exception e) {
 
@@ -113,7 +114,7 @@ public class DictController extends Controller {
 		String id = getPara("id");
 		Dict dict = dictService.getDictById(id);
 		setAttr("dict", dict);
-		render("dictinfo.jsp");
+        renderCG("dictinfo.jsp");
 	}
 
 	/**
@@ -125,7 +126,7 @@ public class DictController extends Controller {
 		logService.saveLog(EnumOptType.del.getEnumKey(),
 				EnumFuncType.dict.getEnumKey(), getCurrentUser()); // 数据字典删除日志保存
 		setAttr("message", "success");
-		render("dictlist.jsp");
+        renderCG("dictlist.jsp");
 	}
 
 	/**

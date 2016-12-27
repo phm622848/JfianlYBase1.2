@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.css">
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css">
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css">
+    <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/treeTable/themes/vsStyle/treeTable.min.css" >
     <!-- end: CSS REQUIRED FOR THIS SUBVIEW CONTENTS-->
     <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/weather-icons/css/weather-icons.min.css">
