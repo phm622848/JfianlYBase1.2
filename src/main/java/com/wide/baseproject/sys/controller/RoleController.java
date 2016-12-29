@@ -1,16 +1,7 @@
 package com.wide.baseproject.sys.controller;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.servlet.http.HttpSession;
-
 import com.jfinal.aop.Before;
-import com.jfinal.aop.Clear;
 import com.jfinal.aop.Enhancer;
-import com.jfinal.core.Controller;
-import com.jfinal.plugin.activerecord.Db;
-import com.jfinal.plugin.activerecord.Record;
 import com.jfinal.plugin.activerecord.tx.Tx;
 import com.wide.base.BaseController;
 import com.wide.baseproject.sys.service.DictService;
@@ -28,6 +19,10 @@ import com.wide.constant.EnumOptType;
 import com.wide.util.ExportController;
 import com.wide.viewmodel.DataTablesModel;
 import com.wide.viewmodel.ViewRole;
+
+import javax.servlet.http.HttpSession;
+import java.util.ArrayList;
+import java.util.List;
 
 public class RoleController extends BaseController {
 	private static final UserService userService = Enhancer
@@ -132,7 +127,7 @@ public class RoleController extends BaseController {
 		String offids = getPara("offids");
 		String resids = getPara("resids");
 		String rightids = getPara("rightids");
-		ViewRole viewrole = new ViewRole();	
+		ViewRole viewrole = new ViewRole();
 		if (role != null && !role.equals("")) {
 			viewrole.setRole(role);
 			viewrole.setOffids(offids);
@@ -185,25 +180,18 @@ public class RoleController extends BaseController {
 		logService.saveLog(EnumOptType.export.getEnumKey(), EnumFuncType.role.getEnumKey(), getCurrentUser()); //角色导出日志保存
 		renderJson("导出成功");
 	}
-	 /**
-	  * @author phm 验证用户名是否重复
-	  */
-	 @Clear
-	 public void checkrolename(){
-		 String rolename = getPara("rolename");
-		 try {
-			if(rolename!=null&&rolename.equals("")!=true){
-				 String sql = "select * from sys_role where name = '"+rolename+"' and del_flag ='0' " ;
-				 List<Record> rolelist = new ArrayList<Record>();
-				 rolelist =  Db.find(sql);
-				 if(rolelist.size()>0){
-					 renderJson("1");
-				 }else {
-					 renderJson("0");
-				}
-			 }
-		} catch (Exception e) {
-			e.printStackTrace();
+
+	/**
+	 * 验证角色名
+	 */
+	public void checkRoleName() {
+		String bron = "true";
+		String rolename = getPara("rolename");
+		List<Role> roleList = new ArrayList<Role>();
+		roleList = Role.dao.find("select * from sys_role where name = ? ", rolename);
+		if (roleList.size() > 0) {
+			bron = "false";
 		}
-	 }
+		renderText(bron);
+	}
 }
