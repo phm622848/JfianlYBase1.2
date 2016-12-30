@@ -45,6 +45,7 @@
 <script src="${basepath}/static/rapido/assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
 <script src="${basepath}/static/rapido/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
 <script src="${basepath}/static/rapido/assets/plugins/DataTables/media/js/jquery.dataTables.min.js"></script>
+<script src="${basepath}/static/js/page/validatorbasejs.js"></script>
 <script src="${basepath}/static/js/DT_bootstrap.js"></script>
 <script src="${basepath}/static/rapido/assets/plugins/truncate/jquery.truncate.js"></script>
 <script src="${basepath}/static/rapido/assets/plugins/summernote/dist/summernote.min.js"></script>

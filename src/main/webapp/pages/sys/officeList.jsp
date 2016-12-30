@@ -3,8 +3,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <c:import url="/pages/include/pageNavigation.jsp"/>
 
-</head>
-<body>
 <!-- start: MAIN CONTAINER -->
 <div class="main-container inner">
     <!-- start: PAGE -->
@@ -44,30 +42,28 @@
                         <div class="tabbable">
                             <ul id="myTab2" class="nav nav-tabs">
                                 <li class="active"><a href="${basepath}/office/add">机构列表</a></li>
-                                <li>
                                 <li><a href="${basepath}/office/addofficeinfo">机构添加</a></li>
-                                </li>
                             </ul>
                             <div class="tab-content">
-                                <div class="col-sm-12">
-                                    <c:if test="${message!=null&&message!=''}">
-                                        <c:if test="${message=='success'}">
-                                            <div class="alert alert-success"
-                                                 style="text-align: center;">
-                                                <button class="close" data-dismiss="alert">&times;</button>
-                                                <strong>删除成功！</strong>
-                                            </div>
-                                        </c:if>
-                                        <c:if test="${message=='error'}">
-                                            <div class="alert alert-error"
-                                                 style="text-align: center;">
-                                                <button class="close" data-dismiss="alert">&times;</button>
-                                                <strong>当前机构下存在下级机构，无法删除！</strong>
-                                            </div>
-                                        </c:if>
-                                    </c:if>
-                                </div>
                                 <div class="panel-body">
+                                    <div class="col-sm-12">
+                                        <c:if test="${message!=null&&message!=''}">
+                                            <c:if test="${message=='success'}">
+                                                <div class="alert alert-success"
+                                                     style="text-align: center;">
+                                                    <button class="close" data-dismiss="alert">&times;</button>
+                                                    <strong>删除成功！</strong>
+                                                </div>
+                                            </c:if>
+                                            <c:if test="${message=='error'}">
+                                                <div class="alert alert-error"
+                                                     style="text-align: center;">
+                                                    <button class="close" data-dismiss="alert">&times;</button>
+                                                    <strong>当前机构下存在下级机构，无法删除！</strong>
+                                                </div>
+                                            </c:if>
+                                        </c:if>
+                                    </div>
                                     <form id="listForm" method="post" class="form-horizontal">
                                         <table id="treeTable"
                                                class="table table-striped table-bordered table-condensed">

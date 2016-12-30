@@ -2,226 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e70a0ef-bfc9-439d-b3f2-f9424bb345ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/page/validatebasejs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/AnySuccessfulStrategy.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/AnySuccessfulStrategy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/BaseController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/BaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/CKFinderConfig.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/CKFinderConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/CKFinderConnectorServlet.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/CKFinderConnectorServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/MailKit$1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/MailKit$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/MailKit.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/MailKit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/RenturnInfo.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/RenturnInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/SheetContent.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/SheetContent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/ShiroDbRealm.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/ShiroDbRealm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/UserfilesDownloadServlet.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/UserfilesDownloadServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/AreaController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/AreaController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/DictController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/DictController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/FileController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/FileController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/LogController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/LogController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/LoginController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/MenuController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/MenuController.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/static/js/page/validatebasejs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/page/validatebasejs.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/OfficeController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/OfficeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/RightController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/RightController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/RoleController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/RoleController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/UserController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/AreaService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/AreaService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/DictService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/DictService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/LogService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/LogService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/LoginService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/LoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/MenuService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/MenuService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/OfficeService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/OfficeService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/RightService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/RightService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/RoleService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/RoleService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/UserService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Area.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Area.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/CaptchaUsernamePasswordToken.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/CaptchaUsernamePasswordToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Dict.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Dict.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Folder.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Folder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Log.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Log.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Menu.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Office.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Office.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/OfficeUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/OfficeUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Right.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Right.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Role.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/RoleOffice.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/RoleOffice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/RoleRight.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/RoleRight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/User.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/UserRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/UserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/_MappingKit.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/_MappingKit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseArea.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseArea.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseDict.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseDict.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseFolder.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseFolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseLog.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseLog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseMenu.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseOffice.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseOffice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseOfficeUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseOfficeUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRight.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRoleOffice.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRoleOffice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRoleRight.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRoleRight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseUserRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseUserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryArea.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryArea.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryDict.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryDict.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryLog.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryLog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryPosting.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryPosting.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/simple/SimpleUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/simple/SimpleUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/DbModel.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/DbModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/Global.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/Global.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory$PropertyNameMap.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory$PropertyNameMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory$PropertyNameSet.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory$PropertyNameSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/UserToken.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/UserToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/_BaseConfig.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/_BaseConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/_JFinalDemoGenerator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/_JFinalDemoGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumDictType.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumDictType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumFuncType.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumFuncType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumOptType.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumOptType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/exception/IncorrectCaptchaException.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/exception/IncorrectCaptchaException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/interceptor/CaptchaFormAuthenticationInterceptor.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/interceptor/CaptchaFormAuthenticationInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/interceptor/LoginInterceptor.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/interceptor/LoginInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/route/SysRoutes.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/route/SysRoutes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/CGUtil.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/CGUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/DateUtil.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/DateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/EmailHandle.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/EmailHandle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelPoi.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelPoi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelUtil.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelVOAttribute.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelVOAttribute.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExportController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExportController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/FileUtils.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/FileUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/JspSkipHandler.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/JspSkipHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/MailTemplate.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/MailTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/PathUtil.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/PathUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/StringUtils.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/StringUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/captcha/CaptchaRender.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/captcha/CaptchaRender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/AreaValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/AreaValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/DictValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/DictValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/LoginValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/LoginValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/MenuValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/MenuValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/OfficeValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/OfficeValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/RoleValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/RoleValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/UserValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/UserValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/DataTablesModel.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/DataTablesModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewArea.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewArea.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewMenu.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewTree.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/AnySuccessfulStrategy.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/AnySuccessfulStrategy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/BaseController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/BaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/CKFinderConfig.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/CKFinderConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/CKFinderConnectorServlet.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/CKFinderConnectorServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/MailKit$1.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/MailKit$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/MailKit.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/MailKit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/RenturnInfo.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/RenturnInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/SheetContent.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/SheetContent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/ShiroDbRealm.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/ShiroDbRealm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/UserfilesDownloadServlet.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/UserfilesDownloadServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/AreaController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/AreaController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/DictController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/DictController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/FileController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/FileController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/LogController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/LogController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/LoginController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/MenuController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/MenuController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/OfficeController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/OfficeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/RightController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/RightController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/RoleController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/RoleController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/UserController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/AreaService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/AreaService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/DictService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/DictService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/LogService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/LogService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/LoginService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/LoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/MenuService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/MenuService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/OfficeService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/OfficeService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/RightService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/RightService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/RoleService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/RoleService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/UserService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Area.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Area.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/CaptchaUsernamePasswordToken.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/CaptchaUsernamePasswordToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Dict.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Dict.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Folder.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Folder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Log.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Log.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Menu.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Office.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Office.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/OfficeUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/OfficeUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Right.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Right.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Role.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/RoleOffice.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/RoleOffice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/RoleRight.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/RoleRight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/User.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/UserRole.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/UserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/_MappingKit.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/_MappingKit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseArea.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseArea.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseDict.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseDict.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseFolder.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseFolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseLog.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseLog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseMenu.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseOffice.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseOffice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseOfficeUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseOfficeUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRight.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRole.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRoleOffice.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRoleOffice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRoleRight.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRoleRight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseUserRole.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseUserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryArea.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryArea.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryDict.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryDict.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryLog.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryLog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryPosting.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryPosting.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryRole.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/simple/SimpleUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/simple/SimpleUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/DbModel.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/DbModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/Global.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/Global.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory$PropertyNameMap.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory$PropertyNameMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory$PropertyNameSet.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory$PropertyNameSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/UserToken.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/UserToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/_BaseConfig.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/_BaseConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/_JFinalDemoGenerator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/_JFinalDemoGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumDictType.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumDictType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumFuncType.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumFuncType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumOptType.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumOptType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/exception/IncorrectCaptchaException.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/exception/IncorrectCaptchaException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/interceptor/CaptchaFormAuthenticationInterceptor.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/interceptor/CaptchaFormAuthenticationInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/interceptor/LoginInterceptor.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/interceptor/LoginInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/route/SysRoutes.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/route/SysRoutes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/CGUtil.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/CGUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/DateUtil.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/DateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/EmailHandle.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/EmailHandle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelPoi.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelPoi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelUtil.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelVOAttribute.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelVOAttribute.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExportController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExportController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/FileUtils.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/FileUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/JspSkipHandler.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/JspSkipHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/MailTemplate.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/MailTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/PathUtil.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/PathUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/StringUtils.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/StringUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/captcha/CaptchaRender.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/captcha/CaptchaRender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/AreaValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/AreaValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/DictValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/DictValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/LoginValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/LoginValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/MenuValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/MenuValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/OfficeValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/OfficeValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/RoleValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/RoleValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/UserValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/UserValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/DataTablesModel.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/DataTablesModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewArea.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewArea.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewMenu.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewRole.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewTree.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_cy_jfinalYBase1_2___jfinalYBase1_2_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_cy_jfinalYBase1_2___jfinalYBase1_2_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/jfinalYBase1.2.iml" afterPath="$PROJECT_DIR$/.idea/modules/jfinalYBase1.2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/include/pageFoot.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/include/pageFoot.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/areaList.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/areaList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/areainfo.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/areainfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/officeInfo.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/officeInfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/officeList.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/officeList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/roleInfo.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/roleInfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/OfficeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/OfficeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/sys/areaList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/sys/areaList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/sys/areainfo.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/sys/areainfo.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/sys/officeList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/sys/officeList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/sys/roleInfo.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/sys/roleInfo.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -264,51 +63,105 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1078">
-              <caret line="390" column="24" lean-forward="false" selection-start-line="390" selection-start-column="16" selection-end-line="390" selection-end-column="24" />
+            <state relative-caret-position="137">
+              <caret line="382" column="9" lean-forward="true" selection-start-line="382" selection-start-column="9" selection-end-line="382" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="officeInfo.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OfficeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/OfficeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+              <folding>
+                <element signature="e#1661#1662#0" expanded="true" />
+                <element signature="e#1688#1689#0" expanded="true" />
+                <element signature="e#1735#1736#0" expanded="true" />
+                <element signature="e#1760#1761#0" expanded="true" />
+                <element signature="e#1807#1808#0" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
+                <element signature="e#1879#1880#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
+                <element signature="e#1951#1952#0" expanded="true" />
+                <element signature="e#1976#1977#0" expanded="true" />
+                <element signature="e#2021#2022#0" expanded="true" />
+                <element signature="e#2045#2046#0" expanded="true" />
+                <element signature="e#2377#2378#0" expanded="true" />
+                <element signature="e#2427#2428#0" expanded="true" />
+                <element signature="e#2525#2533#0" expanded="true" />
+                <element signature="e#6878#6888#0" expanded="true" />
+                <element signature="e#7829#7837#0" expanded="true" />
+                <element signature="e#8311#8319#0" expanded="true" />
+                <element signature="e#8742#8750#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validatorbasejs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/page/validatorbasejs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="officeList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/officeList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-756">
+              <caret line="66" column="93" lean-forward="true" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="93" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="areaList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/areaList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="958">
+              <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roleList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/roleList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="officeInfo.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="236" column="35" lean-forward="true" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
+            <state relative-caret-position="160">
+              <caret line="338" column="8" lean-forward="false" selection-start-line="338" selection-start-column="8" selection-end-line="399" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roleInfo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/roleInfo.jsp">
+      <file leaf-file-name="areainfo.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/areainfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="195" column="37" lean-forward="false" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
+            <state relative-caret-position="273">
+              <caret line="280" column="55" lean-forward="true" selection-start-line="280" selection-start-column="55" selection-end-line="280" selection-end-column="55" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pageFoot.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validatebasejs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/page/validatebasejs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -331,6 +184,11 @@
       <find>box</find>
       <find>保存</find>
       <find>saveroleright</find>
+      <find>va</find>
+      <find>errorRoleHandler</find>
+      <find>office.code</find>
+      <find>office.name</find>
+      <find>submit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -687,7 +545,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/page/validatebasejs.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/OfficeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/sys/roleInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/sys/officeList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/sys/areaList.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/sys/areainfo.jsp" />
       </list>
     </option>
   </component>
@@ -783,7 +646,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1449,12 +1312,12 @@
       <workItem from="1482981488638" duration="407000" />
       <workItem from="1482982215508" duration="1838000" />
       <workItem from="1482991518351" duration="2764000" />
-      <workItem from="1483063555622" duration="4024000" />
+      <workItem from="1483063555622" duration="12830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10519000" />
+    <option name="totallyTimeSpent" value="19325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1466,8 +1329,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1481,17 +1344,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32334384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4731861" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19253294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19213313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1503,6 +1366,41 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4731861" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1511,7 +1409,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1547,9 +1447,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1578,9 +1476,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1600,22 +1496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="390" column="24" lean-forward="false" selection-start-line="390" selection-start-column="16" selection-end-line="390" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/include/pageHead.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/include/pageNavigation.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
@@ -1626,24 +1506,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        <state relative-caret-position="211">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/roleInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="195" column="37" lean-forward="false" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
+        <state relative-caret-position="326">
+          <caret line="63" column="75" lean-forward="false" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="382" column="9" lean-forward="true" selection-start-line="382" selection-start-column="9" selection-end-line="382" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/OfficeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+          <folding>
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1879#1880#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1951#1952#0" expanded="true" />
+            <element signature="e#1976#1977#0" expanded="true" />
+            <element signature="e#2021#2022#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+            <element signature="e#2427#2428#0" expanded="true" />
+            <element signature="e#2525#2533#0" expanded="true" />
+            <element signature="e#6878#6888#0" expanded="true" />
+            <element signature="e#7829#7837#0" expanded="true" />
+            <element signature="e#8311#8319#0" expanded="true" />
+            <element signature="e#8742#8750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/include/pageHead.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/page/validatorbasejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/officeList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="66" column="93" lean-forward="true" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="93" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/roleList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/areaList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="958">
+          <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="236" column="35" lean-forward="true" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
+        <state relative-caret-position="160">
+          <caret line="338" column="8" lean-forward="false" selection-start-line="338" selection-start-column="8" selection-end-line="399" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/areainfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="280" column="55" lean-forward="true" selection-start-line="280" selection-start-column="55" selection-end-line="280" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -1702,7 +1672,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>jfinalYBase1.2_main|jfinalYBase1.2</last-edited>
+          <last-edited>jfinalYBase1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

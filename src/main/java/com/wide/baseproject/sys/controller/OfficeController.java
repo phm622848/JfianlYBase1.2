@@ -68,7 +68,7 @@ public class OfficeController extends BaseController {
 
 	/**
 	 * 获取当前用户
-	 * 
+	 *
 	 * @return User
 	 */
 	public User getCurrentUser() {
@@ -82,7 +82,7 @@ public class OfficeController extends BaseController {
 
 	/**
 	 * @author cg 获取菜单
-	 * 
+	 *
 	 * */
 	public void getMenuAll() {
 		List<Role> listm = roleService.getRoleAll();
@@ -105,7 +105,7 @@ public class OfficeController extends BaseController {
 		String message = getPara("message");
 		setAttr("message", message);
 		setAttr("officelist", officelist);
-        renderCG("officeList.jsp");
+		renderCG("officeList.jsp");
 	}
 
 	/**
@@ -149,7 +149,7 @@ public class OfficeController extends BaseController {
 		setAttr("areaid", areaid);
 		setAttr("parentId", pid);
 		setAttr("message", mark);
-        renderCG("officeInfo.jsp");
+		renderCG("officeInfo.jsp");
 	}
 
 	/**
@@ -294,5 +294,18 @@ public class OfficeController extends BaseController {
 			e.printStackTrace();
 		}
 	}
-
+/**
+ * @author  cg
+ *
+ * */
+public void checkOfficeCode(){
+	boolean bls = false;
+	String code = getPara("code");
+	List<Office> list = new ArrayList<Office>();
+	list= Office.dao.find("select * from sys_office where code = ? ",code);
+	if(list.size()>0){
+		bls= true;
+	}
+	renderJson(bls);
+}
 }

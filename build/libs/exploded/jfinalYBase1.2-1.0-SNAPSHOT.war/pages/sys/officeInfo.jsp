@@ -41,12 +41,8 @@
                     <div class="col-sm-12">
                         <div class="tabbable">
                             <ul id="myTab2" class="nav nav-tabs">
-                                <li>
                                 <li><a href="${basepath}/office/add">机构列表</a></li>
-                                </li>
-                                <li class="active">
                                 <li class="active"><a href="${basepath}/office/addofficeinfo">机构添加</a></li>
-                                </li>
                             </ul>
                             <div class="tab-content">
                                 <div class="panel-body">
@@ -57,6 +53,13 @@
                                             <strong>保存成功！</strong>
                                         </div>
                                     </c:if>
+                                    <div id="errorRoleHandler">
+                                        <div class="alert alert-danger text-center" id="errormessage">
+                                            <button class="close"
+                                                    onclick="$('#errorRoleHandler').hide();">&times;</button>
+                                            <strong>输入错误,请查证后重新输入!</strong>
+                                        </div>
+                                    </div>
                                     <form class="form-horizontal" action="${basepath}/office/saveofficeinfo"
                                           id="officeform" method="post">
                                         <div class="form-group">
@@ -141,9 +144,10 @@
                                                         <!-- /.modal-content -->
                                                     </div>
                                                 </div>
+                                                <%--弹出层结束--%>
                                             </div>
                                             <div class="col-sm-3">
-                                                <%--弹出层结束--%>
+
                                                 <button type="button" id="edithigh" class="btn btn-primary">修改上级地区
                                                 </button>
                                             </div>
@@ -233,25 +237,6 @@
 </div>
 <c:import url="/pages/include/pageFoot.jsp"/>
 <script type="text/javascript">
-    $(document).ready(function () {
-        var officetype = '${type}';
-        if (officetype == '2') {
-            $("span[id^='group_']").each(function (i) {
-                $(this).text("虚拟组");
-            });
-        } else if (officetype == '3') {
-            $("span[id^='group_']").each(function (i) {
-                $(this).text("岗位");
-            });
-        } else {
-            $("span[id^='group_']").each(function (i) {
-                $(this).text("机构");
-            });
-        }
-        $("#savebutton").click(function () {
-            $("#officeform").submit();
-        });
-    })
 
     var areaid = '${areaid}';
     var officeid = '${parentId}';
@@ -324,7 +309,21 @@
         $("#areanames").val(str);
     }
     $(document).ready(function () {
-
+        runSetDefaultValidation();
+        var officetype = '${type}';
+        if (officetype == '2') {
+            $("span[id^='group_']").each(function (i) {
+                $(this).text("虚拟组");
+            });
+        } else if (officetype == '3') {
+            $("span[id^='group_']").each(function (i) {
+                $(this).text("岗位");
+            });
+        } else {
+            $("span[id^='group_']").each(function (i) {
+                $(this).text("机构");
+            });
+        }
         $.fn.zTree.init($("#otree"), settingarea);
         $("#edithigh").click(function () {
             $('#oModal').modal('show');
@@ -337,27 +336,67 @@
             getAllCheckedNodeo();
             $('#oModal').modal('hide');
         });
-        $("#savebutton").click(function () {
-            var box = "";
-            $("input[id^='optionsCheckbox_']").each(function (i) {
-                box = box + $(this).val() + "|";
-            });
-            $("#areaids").val(box);
-            $("#areaform").submit();
+        var form3 = $('.form-horizontal');
+        var errorHandler3 = $('#errorRoleHandler');
+        errorHandler3.hide();
+        form3.validate({
+            rules: {
+                'office.code': {
+                    minlength: 2,
+                    required: true,
+                    remote: {
+                        url: '${basepath}/office/checkOfficeCode',
+                        type: "post",
+                        dataType: "json",
+                        data: {
+                            code: function () {
+                                return $("#code").val();
+                            }
+                        },
+                        dataFilter: function (data) {　　　　//判断控制器返回的内容
+                            if (data == true) {
+                                return false;
+                            }
+                            else {
+                                return true;
+                            }
+                        }
+                    }
+                },
+                'office.name': {
+                    required: true
+                },
+
+                'office.areaId': {
+                    required: true
+                }
+            },
+            messages: {
+                'office.code': {
+                    minlength: '机构编码不能少于2位',
+                    required: '请输入机构编码',
+                    remote: '机构编码重复，请重新输入'
+                },
+
+                'office.name': {
+                    required: '请输入机构名称'
+                },
+                'office.areaId': {
+                    required: '请选择属于地区'
+                },
+            },
+            submitHandler: function (form) {
+                errorHandler3.hide();
+                var box = "";
+                $("input[id^='optionsCheckbox_']").each(function (i) {
+                    box = box + $(this).val() + "|";
+                });
+                $("#areaids").val(box);
+                form.submit();
+            },
+            invalidHandler: function (event, validator) {//display error alert on form submit
+                errorHandler3.show();
+            }
         });
-
-       /* var jqObj = new JQvalidate();
-        var officeform = "officeform";
-        var id = $('#offid').val();
-        jqObj.setform(officeform);
-        jqObj.set("office.code", "required", "请填写机构编码!");
-        if (id != null && id == 0) {
-            jqObj.set("office.code", "remote", "机构编码重复!");
-        }
-        jqObj.set("office.name", "required", "请填写机构名称!");
-        jqObj.set("office.master", "required", "请填写负责人姓名!");
-        jqObj.Run();*/
-
-
     })
 </script>

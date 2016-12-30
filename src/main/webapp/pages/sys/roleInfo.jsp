@@ -58,7 +58,10 @@
                                         </div>
                                     </c:if>
                                     <div id="errorRoleHandler">
-                                        <div class="alert alert-danger text-center" id="errormessage">输入错误,请查证后重新输入!
+                                        <div class="alert alert-danger text-center" id="errormessage">
+                                            <button class="close"
+                                                    onclick="$('#errorRoleHandler').hide();">&times;</button>
+                                            <strong>输入错误,请查证后重新输入!</strong>
                                         </div>
                                     </div>
                                     <form id="roleform" class="form-horizontal" action="${basepath}/role/saveInfo"

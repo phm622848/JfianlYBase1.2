@@ -50,295 +50,384 @@
                             </ul>
                             <div class="tab-content">
                                 <div class="panel-body">
-                                <c:if test="${message!=null&&message!=''}">
-                                    <div class="alert alert-success text-center"  id="successmessage">
-                                        <button class="close" onclick="$('#successmessage').hide();">&times;</button>
-                                        <strong>保存成功！</strong>
-                                    </div>
-                                </c:if>
-                                <form  id="roleform" class="form-horizontal" action="${basepath}/role/saveInfo"
-                                       method="post" >
-                                    <div class="form-group">
-                                        <label class="col-sm-2 control-label" >
-                                            角色名称：
-                                        </label>
-                                        <div class="col-sm-9">
-                                            <input class="form-control"  id="name" placeholder="请输入角色名称最多10个字" name="role.name"
-                                                   type="text" placeholder="请输入角色名称！" value="${vrole.role.name}" class="required">
-                                            <input name="role.id"  id = "cid"  type="hidden" value="${vrole.role.id}" />
-                                            <div style="color: red; margin-top: 5px;">${rolenameMsg}</div>
+                                    <c:if test="${message!=null&&message!=''}">
+                                        <div class="alert alert-success text-center" id="successmessage">
+                                            <button class="close"
+                                                    onclick="$('#successmessage').hide();">&times;</button>
+                                            <strong>保存成功！</strong>
+                                        </div>
+                                    </c:if>
+                                    <div id="errorRoleHandler">
+                                        <div class="alert alert-danger text-center" id="errormessage">
+                                            <button class="close"
+                                                    onclick="$('#errorRoleHandler').hide();">&times;</button>
+                                            <strong>输入错误,请查证后重新输入!</strong>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-2 control-label" >
-                                            角色类型：
-                                        </label>
-                                        <div class="col-sm-9">
-                                            <select class="form-control" id="roletype" name="role.roleType">
-                                                <option	value=''>--请选择--</option>
-                                                <c:forEach items="${listd}" var="dict">
-                                                    <option value="${dict.dictkey}"  <c:if test="${dict.dictkey==vroletype}">selected</c:if>>${dict.dictvalue}</option>
-                                                </c:forEach>
-                                            </select>
-                                            <div style="color: red; margin-top: 5px;">${roletypeMsg}</div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-2 control-label" >
-                                            拥有权限：
-                                        </label>
-                                        <div class="col-sm-9">
-                                            <%--新的弹出层--%>
-                                            <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-lg">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <button aria-hidden="true" data-dismiss="modal" class="close" type="button">
-                                                                ×
-                                                            </button>
-                                                            <h4 id="myLargeModalLabel" id="myModalLabel" class="modal-title">权限列表</h4>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <div id="ztree" class="ztree"></div>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button id="closed" data-dismiss="modal" class="btn btn-default" type="button">
-                                                               关闭
-                                                            </button>
-                                                            <button id="saveroleright" class="btn btn-primary" type="button">
-                                                                保存
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.modal-content -->
-                                                </div>
+                                    <form id="roleform" class="form-horizontal" action="${basepath}/role/saveInfo"
+                                          method="post">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">
+                                                角色名称：
+                                            </label>
+                                            <div class="col-sm-9">
+                                                <input class="form-control" id="rolename" placeholder="请输入角色名称最多10个字"
+                                                       name="role.name"
+                                                       type="text" placeholder="请输入角色名称！" value="${vrole.role.name}"
+                                                       class="required">
+                                                <input name="role.id" id="cid" type="hidden" value="${vrole.role.id}"/>
+                                                <div style="color: red; margin-top: 5px;">${rolenameMsg}</div>
                                             </div>
-                                            <%--弹出层结束--%>
-                                            <button type="button" id="editbt" class="btn btn-primary">修改权限</button>
-                                            <span id="rolerightnames">${vrole.resnames}</span>
-                                            <input type="hidden" name="resids" id="resids"  value="${vrole.resids}"/>
-                                            <input type="hidden" name="rightids" id="rightids"  value="${vrole.rightids}" />
                                         </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-2 control-label" >
-                                            是否启用：
-                                        </label>
-                                        <label class="checkbox-inline">
-                                            <input type="radio" class="red" checked="checked" value="1" id="del_flag0" name="role.useable" >
-                                            是
-                                        </label>
-                                        <label class="checkbox-inline">
-                                            <input type="radio" class="red"  value="0" id="del_flag0" name="role.useable" >
-                                            否
-                                            <c:if test="${vrole.role.useable=='0'}">checked</c:if>
-                                        </label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-2 control-label" >
-                                            备注信息：
-                                        </label>
-                                        <div class="col-sm-9">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">
+                                                角色类型：
+                                            </label>
+                                            <div class="col-sm-9">
+                                                <select class="form-control" id="roletype" name="role.roleType">
+                                                    <option value=''>--请选择--</option>
+                                                    <c:forEach items="${listd}" var="dict">
+                                                        <option value="${dict.dictkey}"
+                                                                <c:if test="${dict.dictkey==vroletype}">selected</c:if>>${dict.dictvalue}</option>
+                                                    </c:forEach>
+                                                </select>
+                                                <div style="color: red; margin-top: 5px;">${roletypeMsg}</div>
+                                            </div>
+                                            <div>
+                                                <input type="hidden" name="typesrole" id="roletypes"
+                                                       value="${dict.dictvalue}">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">
+                                                拥有权限：
+                                            </label>
+                                            <div class="col-sm-9">
+                                                <%--新的弹出层--%>
+                                                <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1"
+                                                     role="dialog" aria-labelledby="myLargeModalLabel"
+                                                     aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button aria-hidden="true" data-dismiss="modal"
+                                                                        class="close" type="button">
+                                                                    ×
+                                                                </button>
+                                                                <h4 id="myLargeModalLabel" id="myModalLabel"
+                                                                    class="modal-title">权限列表</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div id="ztree" class="ztree"></div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button id="closed" data-dismiss="modal"
+                                                                        class="btn btn-default" type="button">
+                                                                    关闭
+                                                                </button>
+                                                                <button id="saveroleright" class="btn btn-primary"
+                                                                        type="button">
+                                                                    保存
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.modal-content -->
+                                                    </div>
+                                                </div>
+                                                <%--弹出层结束--%>
+                                                <button type="button" id="editbt" class="btn btn-primary">修改权限</button>
+                                                <span id="rolerightnames">${vrole.resnames}</span>
+                                                <input type="hidden" name="resids" id="resids" value="${vrole.resids}"/>
+                                                <input type="hidden" name="rightids" id="rightids"
+                                                       value="${vrole.rightids}"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">
+                                                是否启用：
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input type="radio" class="red" checked="checked" value="1"
+                                                       id="del_flag0" name="role.useable">
+                                                是
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input type="radio" class="red" value="0" id="del_flag0"
+                                                       name="role.useable">
+                                                否
+                                                <c:if test="${vrole.role.useable=='0'}">checked</c:if>
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">
+                                                备注信息：
+                                            </label>
+                                            <div class="col-sm-9">
                                             <textarea class="form-control" maxlength="255" id="remarks" rows="8"
-                                                      name="role.remarks" placeholder="请输入备注信息,最多255字">${vrole.role.remarks}</textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-2 control-label">
-                                            所属机构：
-                                        </label>
-                                        <div class="col-sm-9">
-                                            <%--新的弹出层开始--%>
-                                            <div class="modal fade bs-example-modal-lg" id="oModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-lg">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <button aria-hidden="true" data-dismiss="modal" class="close" type="button">
-                                                                ×
-                                                            </button>
-                                                            <h4 id="myLargeModalLabel" id="myOfficeLabel" class="modal-title">机构列表</h4>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <div id="otree" class="ztree"></div>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button id="oclosed" data-dismiss="modal" class="btn btn-default" type="button">
-                                                                关闭
-                                                            </button>
-                                                            <button id="saveoffice" class="btn btn-primary" type="button">
-                                                                保存
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.modal-content -->
-                                                </div>
+                                                      name="role.remarks"
+                                                      placeholder="请输入备注信息,最多255字">${vrole.role.remarks}</textarea>
                                             </div>
-                                            <%--新的弹出层结束--%>
-                                            <button type="button" id="editoff" class="btn btn-primary">修改所属机构</button>
-                                            <span id="offnames">${vrole.offnames}</span> <input
-                                                type="hidden" name="offids" id="offids" value="${vrole.offids}" />
                                         </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-sm-12 text-right">
-                                        <button type="submit" class="btn btn-primary btn-lg">保存</button>
-                                            <button type="button"class="btn btn-default btn-lg"  onclick="javascript:window.location.href='${basepath}/role/add'" >返回</button>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">
+                                                所属机构：
+                                            </label>
+                                            <div class="col-sm-9">
+                                                <%--新的弹出层开始--%>
+                                                <div class="modal fade bs-example-modal-lg" id="oModal" tabindex="-1"
+                                                     role="dialog" aria-labelledby="myLargeModalLabel"
+                                                     aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button aria-hidden="true" data-dismiss="modal"
+                                                                        class="close" type="button">
+                                                                    ×
+                                                                </button>
+                                                                <h4 id="myLargeModalLabel" id="myOfficeLabel"
+                                                                    class="modal-title">机构列表</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div id="otree" class="ztree"></div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button id="oclosed" data-dismiss="modal"
+                                                                        class="btn btn-default" type="button">
+                                                                    关闭
+                                                                </button>
+                                                                <button id="saveoffice" class="btn btn-primary"
+                                                                        type="button">
+                                                                    保存
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.modal-content -->
+                                                    </div>
+                                                </div>
+                                                <%--新的弹出层结束--%>
+                                                <button type="button" id="editoff" class="btn btn-primary">修改所属机构
+                                                </button>
+                                                <span id="offnames">${vrole.offnames}</span> <input
+                                                    type="hidden" name="offids" id="offids" value="${vrole.offids}"/>
+                                            </div>
                                         </div>
-                                    </div>
-                                </form>
-                            </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-12 text-right">
+                                                <button type="submit" class="btn btn-primary btn-lg">保存</button>
+                                                <button type="button" class="btn btn-default btn-lg"
+                                                        onclick="javascript:window.location.href='${basepath}/role/add'">
+                                                    返回
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
-			</div>
-		</div>
-	</div>
-<c:import url="/pages/include/pageFoot.jsp"/>
-        <script type="text/javascript">
-        var roleid = '${vrole.role.id}';
-        var setting = {
-            check : {
-                enable : true,
-                chkStyle : "checkbox"
-            },
-            async : {
-                enable : true,
-                url : "${basepath}/right/getRightTree",
-                autoParam : [ "id", "name" ],
-                otherParam : {
-                    "otherParam" : "zTreeAsyncTest",
-                    "roleid" : roleid
+                </div>
+            </div>
+        </div>
+        <c:import url="/pages/include/pageFoot.jsp"/>
+        <script>
+            var roleid = '${vrole.role.id}';
+            var setting = {
+                check: {
+                    enable: true,
+                    chkStyle: "checkbox"
                 },
-                dataFilter : filter
-            },
-            callback : {
-                onClick : zTreeOnClick,
-                onAsyncSuccess : onAsyncSuccess
-            }
-        };
-        var settingoffice = {
-            check : {
-                enable : true,
-                chkStyle : "checkbox"
-            },
-            async : {
-                enable : true,
-                url : "${basepath}/office/getOfficeTree",
-                autoParam : [ "id", "name" ],
-                otherParam : {
-                    "otherParam" : "zTreeAsyncTest",
-                    "roleid" : roleid
+                async: {
+                    enable: true,
+                    url: "${basepath}/right/getRightTree",
+                    autoParam: ["id", "name"],
+                    otherParam: {
+                        "otherParam": "zTreeAsyncTest",
+                        "roleid": roleid
+                    },
+                    dataFilter: filter
                 },
-                dataFilter : filter
-            },
-            callback : {
-                onClick : zTreeOnClick,
-                onAsyncSuccess : onAsyncSuccesso
+                callback: {
+                    onClick: zTreeOnClick,
+                    onAsyncSuccess: onAsyncSuccess
+                }
+            };
+            var settingoffice = {
+                check: {
+                    enable: true,
+                    chkStyle: "checkbox"
+                },
+                async: {
+                    enable: true,
+                    url: "${basepath}/office/getOfficeTree",
+                    autoParam: ["id", "name"],
+                    otherParam: {
+                        "otherParam": "zTreeAsyncTest",
+                        "roleid": roleid
+                    },
+                    dataFilter: filter
+                },
+                callback: {
+                    onClick: zTreeOnClick,
+                    onAsyncSuccess: onAsyncSuccesso
+                }
+            };
+
+            var treeNodez;
+
+            function filter(treeId, parentNode, childNodes) {
+                if (!childNodes)
+                    return null;
+                for (var i = 0, l = childNodes.length; i < l; i++) {
+                    childNodes[i].name = childNodes[i].name.replace(/\.n/g, '.');
+                }
+                return childNodes;
             }
-        };
 
-        var treeNodez;
-
-        function filter(treeId, parentNode, childNodes) {
-            if (!childNodes)
-                return null;
-            for (var i = 0, l = childNodes.length; i < l; i++) {
-                childNodes[i].name = childNodes[i].name.replace(/\.n/g, '.');
+            function onAsyncSuccess(event, treeId, treeNode, msg) {
+                var treeObj = $.fn.zTree.getZTreeObj("ztree");
+                var nodes = treeObj.getNodesByParam("parentId", 0, null);
+                if (nodes.length > 0) {
+                    treeObj.expandNode(nodes[0], true, false, false);
+                }
             }
-            return childNodes;
-        }
 
-        function onAsyncSuccess(event, treeId, treeNode, msg) {
-            var treeObj = $.fn.zTree.getZTreeObj("ztree");
-            var nodes = treeObj.getNodesByParam("parentId", 0, null);
-            if (nodes.length > 0) {
-                treeObj.expandNode(nodes[0], true, false, false);
+            function onAsyncSuccesso(event, treeId, treeNode, msg) {
+                var treeObj = $.fn.zTree.getZTreeObj("ztree");
+                var nodes = treeObj.getNodesByParam("parentId", 0, null);
+                if (nodes.length > 0) {
+                    treeObj.expandNode(nodes[0], true, false, false);
+                }
             }
-        }
 
-        function onAsyncSuccesso(event, treeId, treeNode, msg) {
-            var treeObj = $.fn.zTree.getZTreeObj("ztree");
-            var nodes = treeObj.getNodesByParam("parentId", 0, null);
-            if (nodes.length > 0) {
-                treeObj.expandNode(nodes[0], true, false, false);
+            //机构树单击事件
+
+            function zTreeOnClick(event, treeId, treeNode) {
+                if (treeNode.nodetype == 1) {
+                    treeNodez = treeNode.nodetype;
+
+                } else {
+                    treeNodez = treeNode.nodetype;
+
+                }
             }
-        }
-
-        //机构树单击事件
-
-        function zTreeOnClick(event, treeId, treeNode) {
-            if (treeNode.nodetype == 1) {
-                treeNodez = treeNode.nodetype;
-
-            } else {
-                treeNodez = treeNode.nodetype;
-
+            function getAllCheckedNode() {
+                var treeObj = $.fn.zTree.getZTreeObj("ztree");
+                var nodes = treeObj.getCheckedNodes(true);
+                var str = "";
+                var ids = "";
+                var rightids = "";
+                for (var i = 0; i < nodes.length; i++) {
+                    str = str + nodes[i].name + "|";
+                    ids = ids + nodes[i].id + "|";
+                    rightids = rightids + nodes[i].resid + "|";
+                }
+                $("#resids").val(ids);
+                $("#rightids").val(rightids);
+                $("#rolerightnames").text(str);
             }
-        }
-        function getAllCheckedNode() {
-            var treeObj = $.fn.zTree.getZTreeObj("ztree");
-            var nodes = treeObj.getCheckedNodes(true);
-            var str = "";
-            var ids = "";
-            var rightids = "";
-            for (var i = 0; i < nodes.length; i++) {
-                str = str + nodes[i].name + "|";
-                ids = ids + nodes[i].id + "|";
-                rightids = rightids + nodes[i].resid + "|";
-            }
-            $("#resids").val(ids);
-            $("#rightids").val(rightids);
-            $("#rolerightnames").text(str);
-        }
 
-        function getAllCheckedNodeo() {
-            var treeObj = $.fn.zTree.getZTreeObj("otree");
-            var nodes = treeObj.getCheckedNodes(true);
-            var str = "";
-            var ids = "";
-            for (var i = 0; i < nodes.length; i++) {
-                str = str + nodes[i].name + "|";
-                ids = ids + nodes[i].id + "|";
+            function getAllCheckedNodeo() {
+                var treeObj = $.fn.zTree.getZTreeObj("otree");
+                var nodes = treeObj.getCheckedNodes(true);
+                var str = "";
+                var ids = "";
+                for (var i = 0; i < nodes.length; i++) {
+                    str = str + nodes[i].name + "|";
+                    ids = ids + nodes[i].id + "|";
+                }
+                $("#offids").val(ids);
+                $("#offnames").text(str);
             }
-            $("#offids").val(ids);
-            $("#offnames").text(str);
-        }
-        $(document).ready(function() {
-            $.fn.zTree.init($("#ztree"), setting);
-            $.fn.zTree.init($("#otree"), settingoffice);
-            $("#editoff").click(function() {
-                $('#oModal').modal('show');
+
+            $(document).ready(function () {
+                runSetDefaultValidation();
+                var basepath = $('#basepath').val();
+                $.fn.zTree.init($("#ztree"), setting);
+                $.fn.zTree.init($("#otree"), settingoffice);
+                $("#editoff").click(function () {
+                    $('#oModal').modal('show');
+                });
+                $("#oclosed").click(function () {
+                    $('#oModal').modal('hide');
+                });
+                $("#saveoffice").click(function () {
+                    $("#offnames").text("");
+                    getAllCheckedNodeo();
+                    $('#oModal').modal('hide');
+                });
+
+                $("#editbt").click(function () {
+                    $('#myModal').modal('show');
+                });
+                $("#closed").click(function () {
+                    $('#myModal').modal('hide');
+                });
+                $("#saveroleright").click(function () {
+                    $("#rolerightnames").text("");
+                    getAllCheckedNode();
+                    $('#myModal').modal('hide');
+                });
+
+                var form3 = $('.form-horizontal');
+                var errorHandler3 = $('#errorRoleHandler');
+                errorHandler3.hide();
+                form3.validate({
+                    rules: {
+                        'role.name': {
+                            minlength: 2,
+                            required: true,
+                            remote: {
+                                url: '${basepath}/role/checkRoleName',
+                                type: "post",
+                                dataType: "json",
+                                data: {
+                                    rolename: function () {
+                                        return $("#rolename").val();
+                                    }
+                                },
+                                dataFilter: function (data) {　　　　//判断控制器返回的内容
+                                    if (data == "true") {
+                                        return true;
+                                    }
+                                    else {
+                                        return false;
+                                    }
+                                }
+                            }
+                        },
+
+                        'typesrole': {
+                            required: true
+                        },
+
+                        'resids': {
+                            required: true
+                        }
+                    },
+
+                    messages: {
+                        'role.name': {
+                            minlength: '角色名不能少于2位',
+                            required: '请输入角色名',
+                            remote: '角色名称重复，请重新输入'
+                        },
+
+                        'typesrole': {
+                            required: '请选择角色类型'
+                        },
+                        'resids': {
+                            required: '请选择用户权限'
+                        },
+                    },
+                    submitHandler: function (form) {
+                        errorHandler3.hide();
+                        form.submit();
+                    },
+                    invalidHandler: function (event, validator) {//display error alert on form submit
+                        errorHandler3.show();
+                    }
+                });
             });
-            $("#oclosed").click(function() {
-                $('#oModal').modal('hide');
-            });
-            $("#saveoffice").click(function() {
-                $("#offnames").text("");
-                getAllCheckedNodeo();
-                $('#oModal').modal('hide');
-            });
+        </script>
 
-            $("#editbt").click(function() {
-                $('#myModal').modal('show');
-            });
-            $("#closed").click(function() {
-                $('#myModal').modal('hide');
-            });
-            $("#saveroleright").click(function() {
-                $("#rolerightnames").text("");
-                getAllCheckedNode();
-                $('#myModal').modal('hide');
-            });
-            /**
-            var jqObj = new JQvalidate();
-            var id = $('#cid').val();
-            var roleform ="roleform";
-            jqObj.setform(roleform);
-            jqObj.set("role.name", "required",  "请输入角色名称!");
-            if(id!=null&&id==0){
-                jqObj.set("role.name", "remote",  "角色名称重复!");
-            }
-            jqObj.set("role.roleType", "required",  "请选择角色类型!");
-            jqObj.Run();*/
-        })
-    </script>
+
