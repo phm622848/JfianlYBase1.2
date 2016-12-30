@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jfinalYBase1.2.iml" filepath="$PROJECT_DIR$/.idea/modules/jfinalYBase1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jfinalYBase1.2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jfinalYBase1.2_main.iml" group="jfinalYBase1.2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jfinalYBase1.2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jfinalYBase1.2_test.iml" group="jfinalYBase1.2" />
     </modules>
   </component>
 </project>

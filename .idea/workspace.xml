@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0b3dcf5-07c4-4f31-86e7-8268a6d5d3fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/themes/default/allbgs.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/themes/default/allbgs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/themes/vsStyle/allbgs.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/themes/vsStyle/allbgs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/themes/vsStyle/allbgs.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/demo/style/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/demo/treeTable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/jquery.treeTable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/jquery.treeTable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/themes/default/treeTable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/themes/default/treeTable.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/themes/vsStyle/treeTable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/themes/vsStyle/treeTable.min.css" />
+    <list default="true" id="6e70a0ef-bfc9-439d-b3f2-f9424bb345ae" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/page/validatebasejs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/AnySuccessfulStrategy.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/AnySuccessfulStrategy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/BaseController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/BaseController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/CKFinderConfig.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/CKFinderConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/CKFinderConnectorServlet.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/CKFinderConnectorServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/MailKit$1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/MailKit$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/MailKit.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/MailKit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/RenturnInfo.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/RenturnInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/SheetContent.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/SheetContent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/ShiroDbRealm.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/ShiroDbRealm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/base/UserfilesDownloadServlet.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/base/UserfilesDownloadServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/AreaController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/AreaController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/DictController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/DictController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/FileController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/FileController.class" />
@@ -26,7 +23,101 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/RightController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/RightController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/RoleController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/RoleController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/UserController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/AreaService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/AreaService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/DictService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/DictService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/LogService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/LogService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/LoginService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/LoginService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/MenuService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/MenuService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/OfficeService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/OfficeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/RightService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/RightService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/RoleService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/RoleService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/UserService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/baseproject/sys/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Area.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Area.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/CaptchaUsernamePasswordToken.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/CaptchaUsernamePasswordToken.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Dict.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Dict.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Folder.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Folder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Log.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Log.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Menu.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Office.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Office.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/OfficeUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/OfficeUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Right.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Right.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Role.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/RoleOffice.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/RoleOffice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/RoleRight.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/RoleRight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/User.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/UserRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/UserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/_MappingKit.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/_MappingKit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseArea.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseDict.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseDict.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseFolder.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseFolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseLog.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseMenu.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseOffice.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseOffice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseOfficeUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseOfficeUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRight.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRoleOffice.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRoleOffice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRoleRight.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseRoleRight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseUserRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/base/BaseUserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryArea.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryDict.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryDict.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryLog.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryPosting.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryPosting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/query/QueryUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/simple/SimpleUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/common/model/simple/SimpleUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/DbModel.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/DbModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/Global.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/Global.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory$PropertyNameMap.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory$PropertyNameMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory$PropertyNameSet.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory$PropertyNameSet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/PropertyNameContainerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/UserToken.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/UserToken.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/_BaseConfig.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/_BaseConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/config/_JFinalDemoGenerator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/config/_JFinalDemoGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumDictType.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumDictType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumFuncType.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumFuncType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumOptType.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/constant/EnumOptType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/exception/IncorrectCaptchaException.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/exception/IncorrectCaptchaException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/interceptor/CaptchaFormAuthenticationInterceptor.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/interceptor/CaptchaFormAuthenticationInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/interceptor/LoginInterceptor.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/interceptor/LoginInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/route/SysRoutes.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/route/SysRoutes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/CGUtil.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/CGUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/DateUtil.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/DateUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/EmailHandle.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/EmailHandle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelPoi.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelPoi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelUtil.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelVOAttribute.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExcelVOAttribute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExportController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/ExportController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/FileUtils.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/FileUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/JspSkipHandler.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/JspSkipHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/MailTemplate.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/MailTemplate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/PathUtil.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/PathUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/StringUtils.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/StringUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/util/captcha/CaptchaRender.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/util/captcha/CaptchaRender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/AreaValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/AreaValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/DictValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/DictValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/LoginValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/LoginValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/MenuValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/MenuValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/OfficeValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/OfficeValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/RoleValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/RoleValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/validator/UserValidator.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/validator/UserValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/DataTablesModel.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/DataTablesModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewArea.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewMenu.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewTree.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/wide/viewmodel/ViewUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/AnySuccessfulStrategy.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/AnySuccessfulStrategy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/BaseController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/BaseController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/CKFinderConfig.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/CKFinderConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/CKFinderConnectorServlet.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/CKFinderConnectorServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/MailKit$1.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/MailKit$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/MailKit.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/MailKit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/RenturnInfo.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/RenturnInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/SheetContent.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/SheetContent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/ShiroDbRealm.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/ShiroDbRealm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/UserfilesDownloadServlet.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/base/UserfilesDownloadServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/AreaController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/AreaController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/DictController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/DictController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/FileController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/FileController.class" />
@@ -37,31 +128,100 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/RightController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/RightController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/RoleController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/RoleController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/UserController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/AreaService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/AreaService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/DictService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/DictService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/LogService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/LogService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/LoginService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/LoginService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/MenuService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/MenuService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/OfficeService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/OfficeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/RightService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/RightService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/RoleService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/RoleService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/UserService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/baseproject/sys/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Area.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Area.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/CaptchaUsernamePasswordToken.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/CaptchaUsernamePasswordToken.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Dict.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Dict.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Folder.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Folder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Log.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Log.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Menu.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Office.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Office.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/OfficeUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/OfficeUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Right.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Right.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Role.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/RoleOffice.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/RoleOffice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/RoleRight.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/RoleRight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/User.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/UserRole.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/UserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/_MappingKit.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/_MappingKit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseArea.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseDict.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseDict.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseFolder.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseFolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseLog.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseMenu.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseOffice.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseOffice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseOfficeUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseOfficeUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRight.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRole.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRoleOffice.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRoleOffice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRoleRight.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseRoleRight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseUserRole.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/base/BaseUserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryArea.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryDict.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryDict.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryLog.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryPosting.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryPosting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryRole.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/query/QueryUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/simple/SimpleUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/common/model/simple/SimpleUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/DbModel.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/DbModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/Global.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/Global.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/lib/commons-io-2.4.jar" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/lib/commons-io-2.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/sys.properties" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/sys.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/include/pageFoot.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/include/pageFoot.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/include/pageHead.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/include/pageHead.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/include/pageNavigation.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/include/pageNavigation.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/officeInfo.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/officeInfo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/officeList.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/pages/sys/officeList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/sys.properties" afterPath="$PROJECT_DIR$/build/resources/main/sys.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/AreaController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/AreaController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/DictController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/DictController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/FileController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/FileController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/LogController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/LogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/MenuController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/MenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/OfficeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/OfficeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/RightController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/RightController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/RoleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/RoleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sys.properties" afterPath="$PROJECT_DIR$/src/main/resources/sys.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory$PropertyNameMap.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory$PropertyNameMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory$PropertyNameSet.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory$PropertyNameSet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/PropertyNameContainerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/UserToken.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/UserToken.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/_BaseConfig.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/_BaseConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/_JFinalDemoGenerator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/config/_JFinalDemoGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumDictType.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumDictType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumFuncType.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumFuncType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumOptType.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/constant/EnumOptType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/exception/IncorrectCaptchaException.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/exception/IncorrectCaptchaException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/interceptor/CaptchaFormAuthenticationInterceptor.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/interceptor/CaptchaFormAuthenticationInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/interceptor/LoginInterceptor.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/interceptor/LoginInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/route/SysRoutes.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/route/SysRoutes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/CGUtil.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/CGUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/DateUtil.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/DateUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/EmailHandle.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/EmailHandle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelPoi.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelPoi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelUtil.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelVOAttribute.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExcelVOAttribute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExportController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/ExportController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/FileUtils.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/FileUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/JspSkipHandler.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/JspSkipHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/MailTemplate.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/MailTemplate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/PathUtil.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/PathUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/StringUtils.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/StringUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/captcha/CaptchaRender.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/util/captcha/CaptchaRender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/AreaValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/AreaValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/DictValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/DictValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/LoginValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/LoginValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/MenuValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/MenuValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/OfficeValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/OfficeValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/RoleValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/RoleValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/UserValidator.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/validator/UserValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/DataTablesModel.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/DataTablesModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewArea.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewMenu.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewRole.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewTree.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewUser.class" afterPath="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/WEB-INF/classes/com/wide/viewmodel/ViewUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_cy_jfinalYBase1_2___jfinalYBase1_2_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_cy_jfinalYBase1_2___jfinalYBase1_2_1_0_SNAPSHOT_war__exploded_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/jfinalYBase1.2.iml" afterPath="$PROJECT_DIR$/.idea/modules/jfinalYBase1.2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/include/pageHead.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/include/pageHead.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/include/pageNavigation.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/include/pageNavigation.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/sys/officeList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/sys/officeList.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -74,6 +234,14 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
@@ -88,23 +256,26 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JfianlYBase1.2" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="officeInfo.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="182" column="44" lean-forward="true" selection-start-line="182" selection-start-column="44" selection-end-line="182" selection-end-column="44" />
+            <state relative-caret-position="1078">
+              <caret line="390" column="24" lean-forward="false" selection-start-line="390" selection-start-column="16" selection-end-line="390" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addinfo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/addinfo.jsp">
+      <file leaf-file-name="officeInfo.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="70" column="178" lean-forward="false" selection-start-line="70" selection-start-column="158" selection-end-line="70" selection-end-column="178" />
+            <state relative-caret-position="222">
+              <caret line="236" column="35" lean-forward="true" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -113,32 +284,68 @@
       <file leaf-file-name="roleInfo.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/roleInfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="90" column="44" lean-forward="false" selection-start-line="90" selection-start-column="44" selection-end-line="115" selection-end-column="57" />
+            <state relative-caret-position="299">
+              <caret line="195" column="37" lean-forward="false" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pageFoot.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="632">
+              <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validatebasejs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/page/validatebasejs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>render</find>
+      <find>basepatj</find>
+      <find>checkemail</find>
+      <find>getemail</find>
+      <find>basepat</find>
+      <find>box</find>
+      <find>保存</find>
+      <find>saveroleright</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$PROJECT_DIR$/../../gradle-3.1" />
+        <entry key="$PROJECT_DIR$" value="E:\tools\gradle-3.2.1" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="3.1" />
+        <entry key="$PROJECT_DIR$" value="3.2.1" />
       </map>
     </option>
     <option name="availableProjects">
@@ -185,6 +392,11 @@
                 <option name="description" value="Assembles main classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'jfinalYBase1.2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'jfinalYBase1.2'." />
@@ -306,12 +518,6 @@
         </entry>
       </map>
     </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../jfinalYBase1.2" value="2965432880000" />
-        <entry key="$PROJECT_DIR$/../../ideaworkspace/jfinalYBase1.2" value="2960293821000" />
-      </map>
-    </option>
     <option name="projectBuildClasspath">
       <map>
         <entry key="$PROJECT_DIR$">
@@ -331,138 +537,138 @@
               <option name="name" value="jfinalYBase1.2" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/announce" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/antlr" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/base-services" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/base-services-groovy" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/build-comparison" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/build-init" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/cli" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/code-quality" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/composite-builds" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/core" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/dependency-management" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/diagnostics" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/ear" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/ide" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/ide-native" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/ide-play" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/installation-beacon" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/internal-android-performance-testing" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/internal-integ-testing" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/internal-performance-testing" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/internal-testing" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/ivy" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/jacoco" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/javascript" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/jetty" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/jvm-services" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/language-groovy" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/language-java" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/language-jvm" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/language-native" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/language-scala" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/launcher" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/logging" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/maven" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/messaging" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/model-core" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/model-groovy" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/native" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/open-api" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/osgi" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/platform-base" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/platform-jvm" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/platform-native" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/platform-play" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/plugin-development" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/plugin-use" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/plugins" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/process-services" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/publish" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/reporting" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/resources" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/resources-http" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/resources-s3" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/resources-sftp" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/scala" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/signing" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/task-cache-http" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/test-kit" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/testing-base" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/testing-jvm" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/testing-native" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/tooling-api" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/tooling-api-builders" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/ui" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/src/wrapper" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/ant-1.9.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-base-services-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-base-services-groovy-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-cli-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-core-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-docs-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-installation-beacon-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-jvm-services-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-launcher-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-logging-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-messaging-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-model-core-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-model-groovy-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-native-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-open-api-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-process-services-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-resources-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-script-kotlin-0.3.2.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-tooling-api-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-ui-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/gradle-wrapper-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/groovy-all-2.4.7.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-announce-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-antlr-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-build-comparison-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-build-init-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-code-quality-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-composite-builds-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-dependency-management-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-diagnostics-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-ear-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-ide-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-ide-native-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-ide-play-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-ivy-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-jacoco-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-javascript-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-jetty-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-language-groovy-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-language-java-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-language-jvm-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-language-native-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-language-scala-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-maven-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-osgi-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-platform-base-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-platform-jvm-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-platform-native-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-platform-play-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-plugin-development-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-plugin-use-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-plugins-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-publish-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-reporting-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-resources-http-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-resources-s3-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-resources-sftp-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-scala-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-signing-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-task-cache-http-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-test-kit-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-testing-native-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/gradle-tooling-api-builders-3.1.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-3.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="E:/tools/gradle-3.2.1/src/announce" />
+                  <option value="E:/tools/gradle-3.2.1/src/antlr" />
+                  <option value="E:/tools/gradle-3.2.1/src/base-services" />
+                  <option value="E:/tools/gradle-3.2.1/src/base-services-groovy" />
+                  <option value="E:/tools/gradle-3.2.1/src/build-comparison" />
+                  <option value="E:/tools/gradle-3.2.1/src/build-init" />
+                  <option value="E:/tools/gradle-3.2.1/src/cli" />
+                  <option value="E:/tools/gradle-3.2.1/src/code-quality" />
+                  <option value="E:/tools/gradle-3.2.1/src/composite-builds" />
+                  <option value="E:/tools/gradle-3.2.1/src/core" />
+                  <option value="E:/tools/gradle-3.2.1/src/dependency-management" />
+                  <option value="E:/tools/gradle-3.2.1/src/diagnostics" />
+                  <option value="E:/tools/gradle-3.2.1/src/ear" />
+                  <option value="E:/tools/gradle-3.2.1/src/ide" />
+                  <option value="E:/tools/gradle-3.2.1/src/ide-native" />
+                  <option value="E:/tools/gradle-3.2.1/src/ide-play" />
+                  <option value="E:/tools/gradle-3.2.1/src/installation-beacon" />
+                  <option value="E:/tools/gradle-3.2.1/src/internal-android-performance-testing" />
+                  <option value="E:/tools/gradle-3.2.1/src/internal-integ-testing" />
+                  <option value="E:/tools/gradle-3.2.1/src/internal-performance-testing" />
+                  <option value="E:/tools/gradle-3.2.1/src/internal-testing" />
+                  <option value="E:/tools/gradle-3.2.1/src/ivy" />
+                  <option value="E:/tools/gradle-3.2.1/src/jacoco" />
+                  <option value="E:/tools/gradle-3.2.1/src/javascript" />
+                  <option value="E:/tools/gradle-3.2.1/src/jetty" />
+                  <option value="E:/tools/gradle-3.2.1/src/jvm-services" />
+                  <option value="E:/tools/gradle-3.2.1/src/language-groovy" />
+                  <option value="E:/tools/gradle-3.2.1/src/language-java" />
+                  <option value="E:/tools/gradle-3.2.1/src/language-jvm" />
+                  <option value="E:/tools/gradle-3.2.1/src/language-native" />
+                  <option value="E:/tools/gradle-3.2.1/src/language-scala" />
+                  <option value="E:/tools/gradle-3.2.1/src/launcher" />
+                  <option value="E:/tools/gradle-3.2.1/src/logging" />
+                  <option value="E:/tools/gradle-3.2.1/src/maven" />
+                  <option value="E:/tools/gradle-3.2.1/src/messaging" />
+                  <option value="E:/tools/gradle-3.2.1/src/model-core" />
+                  <option value="E:/tools/gradle-3.2.1/src/model-groovy" />
+                  <option value="E:/tools/gradle-3.2.1/src/native" />
+                  <option value="E:/tools/gradle-3.2.1/src/open-api" />
+                  <option value="E:/tools/gradle-3.2.1/src/osgi" />
+                  <option value="E:/tools/gradle-3.2.1/src/platform-base" />
+                  <option value="E:/tools/gradle-3.2.1/src/platform-jvm" />
+                  <option value="E:/tools/gradle-3.2.1/src/platform-native" />
+                  <option value="E:/tools/gradle-3.2.1/src/platform-play" />
+                  <option value="E:/tools/gradle-3.2.1/src/plugin-development" />
+                  <option value="E:/tools/gradle-3.2.1/src/plugin-use" />
+                  <option value="E:/tools/gradle-3.2.1/src/plugins" />
+                  <option value="E:/tools/gradle-3.2.1/src/process-services" />
+                  <option value="E:/tools/gradle-3.2.1/src/publish" />
+                  <option value="E:/tools/gradle-3.2.1/src/reporting" />
+                  <option value="E:/tools/gradle-3.2.1/src/resources" />
+                  <option value="E:/tools/gradle-3.2.1/src/resources-http" />
+                  <option value="E:/tools/gradle-3.2.1/src/resources-s3" />
+                  <option value="E:/tools/gradle-3.2.1/src/resources-sftp" />
+                  <option value="E:/tools/gradle-3.2.1/src/scala" />
+                  <option value="E:/tools/gradle-3.2.1/src/signing" />
+                  <option value="E:/tools/gradle-3.2.1/src/task-cache-http" />
+                  <option value="E:/tools/gradle-3.2.1/src/test-kit" />
+                  <option value="E:/tools/gradle-3.2.1/src/testing-base" />
+                  <option value="E:/tools/gradle-3.2.1/src/testing-jvm" />
+                  <option value="E:/tools/gradle-3.2.1/src/testing-native" />
+                  <option value="E:/tools/gradle-3.2.1/src/tooling-api" />
+                  <option value="E:/tools/gradle-3.2.1/src/tooling-api-builders" />
+                  <option value="E:/tools/gradle-3.2.1/src/ui" />
+                  <option value="E:/tools/gradle-3.2.1/src/wrapper" />
+                  <option value="E:/tools/gradle-3.2.1/lib/ant-1.9.6.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-base-services-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-base-services-groovy-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-cli-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-core-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-docs-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-installation-beacon-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-jvm-services-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-launcher-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-logging-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-messaging-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-model-core-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-model-groovy-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-native-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-open-api-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-process-services-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-resources-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-script-kotlin-0.4.0.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-tooling-api-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-ui-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/gradle-wrapper-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/groovy-all-2.4.7.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-announce-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-antlr-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-build-comparison-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-build-init-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-code-quality-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-composite-builds-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-dependency-management-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-diagnostics-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-ear-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-ide-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-ide-native-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-ide-play-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-ivy-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-jacoco-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-javascript-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-jetty-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-language-groovy-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-language-java-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-language-jvm-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-language-native-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-language-scala-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-maven-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-osgi-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-platform-base-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-platform-jvm-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-platform-native-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-platform-play-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-plugin-development-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-plugin-use-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-plugins-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-publish-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-reporting-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-resources-http-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-resources-s3-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-resources-sftp-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-scala-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-signing-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-task-cache-http-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-test-kit-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-testing-base-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-testing-jvm-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-testing-native-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/gradle-tooling-api-builders-3.2.1.jar" />
+                  <option value="E:/tools/gradle-3.2.1/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -479,21 +685,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/sys.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/include/pageNavigation.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/RightController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/AreaController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/DictController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/LogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/OfficeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/RoleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/sys/officeList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/page/validatebasejs.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/include/pageHead.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp" />
       </list>
     </option>
@@ -512,10 +705,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="722" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -532,9 +725,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -561,26 +753,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JfianlYBase1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JfianlYBase1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
@@ -602,14 +776,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,7 +802,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
@@ -658,7 +832,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
@@ -666,10 +840,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -688,27 +858,113 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JfianlYBase1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JfianlYBase1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JfianlYBase1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JfianlYBase1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JfianlYBase1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JfianlYBase1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="js.eslint.eslintPackage" value="" />
-    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins" />
-    </key>
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11/cmd/git.exe" />
   </component>
   <component name="RunManager" selected="Tomcat Server.JfinalYBase1.2">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -907,7 +1163,7 @@
           <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
         </LauncherParameters>
       </option>
       <option name="mobileRunTarget" value="Emulator" />
@@ -930,7 +1186,7 @@
           <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
         </LauncherParameters>
       </option>
       <option name="moduleName" value="" />
@@ -959,6 +1215,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1080,6 +1337,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1095,7 +1358,7 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="JfinalYBase1.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.70" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+    <configuration default="false" name="JfinalYBase1.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.73" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -1115,7 +1378,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54233" />
+        <option name="DEBUG_PORT" value="52728" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -1177,91 +1440,69 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a0b3dcf5-07c4-4f31-86e7-8268a6d5d3fd" name="Default" comment="" />
-      <created>1482803670125</created>
+      <changelist id="6e70a0ef-bfc9-439d-b3f2-f9424bb345ae" name="Default" comment="" />
+      <created>1482902945311</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1482803670125</updated>
-      <workItem from="1482803674225" duration="7452000" />
+      <updated>1482902945311</updated>
+      <workItem from="1482902950771" duration="1486000" />
+      <workItem from="1482981488638" duration="407000" />
+      <workItem from="1482982215508" duration="1838000" />
+      <workItem from="1482991518351" duration="2764000" />
+      <workItem from="1483063555622" duration="4024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7452000" />
+    <option name="totallyTimeSpent" value="10519000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1280" height="722" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24603175" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32334384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19253294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24603175" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1278,127 +1519,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/constant/EnumOptType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/page/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sys.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/rebel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/shiro.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/base/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/AreaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="202" column="16" lean-forward="false" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/DictController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="158" column="38" lean-forward="false" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/LogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1190">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/OfficeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1641">
-          <caret line="151" column="16" lean-forward="false" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/RightController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-845">
-          <caret line="121" column="16" lean-forward="false" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+        <state relative-caret-position="1254">
+          <caret line="66" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="97" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2840">
-          <caret line="230" column="16" lean-forward="false" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+        <state relative-caret-position="7410">
+          <caret line="390" column="24" lean-forward="false" selection-start-line="390" selection-start-column="16" selection-end-line="390" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/rapido/assets/plugins/treeTable/demo/style/demo.css">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1406,71 +1543,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/page/validatebasejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sys.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sys.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sys.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/page/validatebasejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/userInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/page/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="66" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="97" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wide/baseproject/sys/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="390" column="24" lean-forward="false" selection-start-line="390" selection-start-column="16" selection-end-line="390" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/include/pageHead.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="45" column="118" lean-forward="false" selection-start-line="45" selection-start-column="118" selection-end-line="45" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="55" column="98" lean-forward="false" selection-start-line="55" selection-start-column="98" selection-end-line="55" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/roleList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="65" column="116" lean-forward="true" selection-start-line="65" selection-start-column="93" selection-end-line="65" selection-end-column="116" />
+        <state relative-caret-position="181">
+          <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/include/pageNavigation.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="-29">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/officeList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/include/pageFoot.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="e#2390#2397#0#HTML" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="e#2895#2902#0#HTML" expanded="false" />
-          </folding>
+        <state relative-caret-position="632">
+          <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/roleInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="90" column="44" lean-forward="false" selection-start-line="90" selection-start-column="44" selection-end-line="115" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/addinfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="70" column="178" lean-forward="false" selection-start-line="70" selection-start-column="158" selection-end-line="70" selection-end-column="178" />
+        <state relative-caret-position="299">
+          <caret line="195" column="37" lean-forward="false" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/sys/officeInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="182" column="44" lean-forward="true" selection-start-line="182" selection-start-column="44" selection-end-line="182" selection-end-column="44" />
+        <state relative-caret-position="222">
+          <caret line="236" column="35" lean-forward="true" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1494,7 +1667,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web Gradle : jfinalYBase1.2-1.0-SNAPSHOT.war (jfinalYBase1.2_main)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1529,12 +1702,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>jfinalYBase1.2</last-edited>
+          <last-edited>jfinalYBase1.2_main|jfinalYBase1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1542,7 +1714,6 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
