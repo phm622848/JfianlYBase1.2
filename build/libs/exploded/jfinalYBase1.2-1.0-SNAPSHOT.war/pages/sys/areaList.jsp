@@ -56,10 +56,10 @@
                                                 </div>
                                             </c:if>
                                             <c:if test="${message=='error'}">
-                                                <div class="alert alert-error"
-                                                     style="text-align: center;">
-                                                    <button class="close" data-dismiss="alert">&times;</button>
-                                                    <strong>该菜单含有下级地区，请清空下级地区后重试！</strong>
+                                                <div class="alert alert-danger text-center" id="errormessage">
+                                                    <button class="close"
+                                                            onclick="$('#errormessage').hide();">&times;</button>
+                                                    <strong>当前机构下存在下级机构，无法删除！</strong>
                                                 </div>
                                             </c:if>
                                         </c:if>
@@ -69,14 +69,14 @@
                                             <label class="col-sm-2 control-label">
                                                 地区名：
                                             </label>
-                                            <div class="col-sm-4">
-                                                <input class="input-medium focused" id="areaname" name="areaname"
+                                            <div class="col-sm-3">
+                                                <input class="form-control" id="areaname" name="areaname"
                                                        type="text" value="${areaname}"/>
                                             </div>
                                             <label class="col-sm-2 control-label">
                                                 区域类型：
                                             </label>
-                                            <div class="col-sm-4">
+                                            <div class="col-sm-3">
                                                 <select class="form-control" id="areatype" name="areatype">
                                                     <option value="">--全部--</option>
                                                     <c:forEach items="${listdict}" var="dict">
@@ -85,9 +85,7 @@
                                                     </c:forEach>
                                                 </select>
                                             </div>
-                                        </div>
-                                        <div class="form-group text-right">
-                                            <div class="col-sm-12">
+                                            <div class="col-sm-2">
                                                 <button type="submit" class="btn btn-primary btn-squared btn-lg"
                                                         id="query">查询
                                                 </button>

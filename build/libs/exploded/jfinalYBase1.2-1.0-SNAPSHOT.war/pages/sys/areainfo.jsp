@@ -109,7 +109,7 @@
                                                                         class="btn btn-default" type="button">
                                                                     关闭
                                                                 </button>
-                                                                <button id="saveroleright" class="btn btn-primary"
+                                                                <button id="savearea" class="btn btn-primary"
                                                                         type="button">
                                                                     保存
                                                                 </button>
@@ -247,6 +247,7 @@
     }
     $(document).ready(function () {
         $('#errorRoleHandler').hide();
+        runSetDefaultValidation();
         $.fn.zTree.init($("#otree"), settingarea);
         $("#edithigh").click(function () {
             $('#oModal').modal('show');
@@ -259,30 +260,49 @@
             getAllCheckedNodeo();
             $('#oModal').modal('hide');
         });
-        $("#savebutton").click(function () {
-            var box = "";
-            $("input[id^='optionsCheckbox_']").each(function (i) {
-                box = box + $(this).val() + "|";
-            });
-            $("#areaids").val(box);
-        });
         var type = '${area.type}';
         if (type != '' || type != null) {
             $("#areatype option[value='" + type + "']").attr(
                 "selected", "selected");
-        }
-        ;
-       /* var jqObj = new JQvalidate();
-        var id = $('#areaid').val();
-        var area = "area";
-        jqObj.setform(area);
-        jqObj.set("area.name", "required", "请输入地区名称!");
-        jqObj.set("area.code", "required", "请输入区域编码!");
-        jqObj.set("area.type", "required", "请选择区域类型!");
-        if (id != null && id == 0) {
-            jqObj.set("area.code", "remote", "区域编码重复!");
-        }
+        };
+        var form3 = $('.form-horizontal');
+        var errorHandler3 = $('#errorRoleHandler');
+        errorHandler3.hide();
+        form3.validate({
+            rules: {
+                'area.name': {
+                    minlength: 2,
+                    required: true
+                },
+                'area.code': {
+                    required: true
+                },
 
-        jqObj.Run();*/
+                'area.type': {
+                    required: true
+                }
+            },
+            messages: {
+                'area.name': {
+                    minlength: '地区名称不能少于2位',
+                    required: '请输入地区名称'
+                },
+
+                'area.code': {
+                    required: '请输入地区编码'
+                },
+                'area.type': {
+                    required: '请选择区域类型'
+                },
+            },
+            submitHandler: function (form) {
+                errorHandler3.hide();
+                alert($("#areaids").val());
+                form.submit();
+            },
+            invalidHandler: function (event, validator) {//display error alert on form submit
+                errorHandler3.show();
+            }
+        });
     })
 </script>

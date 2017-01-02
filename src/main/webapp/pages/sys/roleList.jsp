@@ -48,7 +48,7 @@
                                 </li>
                             </ul>
                             <div class="tab-content">
-                                <div class="span12">
+                                <div class="col-sm-12">
                                     <div class="alert alert-success"
                                          style="margin-right: 8%; display: none; text-align: center; "
                                          id="successmessage">
@@ -157,7 +157,7 @@
             todayHighlight: 1,
             startView: 2,
             forceParse: true,
-            minView: 1,//只到天
+            minView: 2,//只到天
             showMeridian: 1
         }).on('changeDate', function (ev) {
             $(this).datetimepicker('hide');
