@@ -68,10 +68,8 @@ public class DictService {
 			if (rows.size() > 0) {
 				for (int i = 0; i < rows.size(); i++) {
 					List<String> row = rows.get(i);
-					row.add(5, "<a href ='/WHXYWXSYS/dict/adddictinfo?id="
-							+ row.get(0).trim()
-							+ "' >修改</a> | <a href='/WHXYWXSYS/dict/delete?id="
-							+ row.get(0).trim() + "'>删除</a>");
+					row.add(5, "<a href ='#' onclick=edit('" + row.get(0).trim()
+							+ "') >修改</a> | <a href='#' onclick=del('" + row.get(0).trim() + "') >删除</a>");
 					row.remove(0);
 				}
 

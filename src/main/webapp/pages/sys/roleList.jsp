@@ -48,21 +48,17 @@
                                 </li>
                             </ul>
                             <div class="tab-content">
-                                <div class="col-sm-12">
-                                    <div class="alert alert-success"
-                                         style="margin-right: 8%; display: none; text-align: center; "
+                                <div class="panel-body">
+                                    <div class="alert alert-success text-center"
                                          id="successmessage">
                                         <button class="close" onclick="$('#successmessage').hide();">&times;</button>
                                         <strong><span id="messagess"></span></strong>
                                     </div>
-                                    <div class="alert alert-error"
-                                         style="margin-right: 8%; display: none; text-align: center; "
+                                    <div class="alert alert-error text-center"
                                          id="errormessage">
                                         <button class="close" onclick="$('#errormessage').hide();">&times;</button>
                                         <strong><span id="messageee"></span></strong>
                                     </div>
-                                </div>
-                                <div class="panel-body">
                                     <form action="${basepath}/role/exportRole" method="post" class="form-horizontal"
                                           id="roleform">
                                         <div class="form-group">
@@ -119,22 +115,22 @@
                                     </form>
                                 </div>
                                 <div class="panel-body">
-                                <table id="roleList" class="table table-striped table-bordered">
-                                    <thead>
-                                    <tr>
-                                        <th>角色名称</th>
-                                        <th>角色类型</th>
-                                        <th>创建人</th>
-                                        <th>创建时间</th>
-                                        <th>拥有权限</th>
-                                        <th>操作</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    </tbody>
-                                    <!-- tbody是必须的 -->
+                                    <table id="roleList" class="table table-striped table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th>角色名称</th>
+                                            <th>角色类型</th>
+                                            <th>创建人</th>
+                                            <th>创建时间</th>
+                                            <th>拥有权限</th>
+                                            <th>操作</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                        <!-- tbody是必须的 -->
 
-                                </table>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +139,6 @@
             </div>
         </div>
     </div>
-
 </div>
 <c:import url="/pages/include/pageFoot.jsp"/>
 <script type="text/javascript">

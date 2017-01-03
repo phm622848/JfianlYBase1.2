@@ -114,7 +114,7 @@
                                                                         class="close" type="button">
                                                                     ×
                                                                 </button>
-                                                                <h4 id="myLargeModalLabel" id="myModalLabel"
+                                                                <h4  id="myModalLabel"
                                                                     class="modal-title">权限列表</h4>
                                                             </div>
                                                             <div class="modal-body">
@@ -147,12 +147,12 @@
                                                 是否启用：
                                             </label>
                                             <label class="checkbox-inline">
-                                                <input type="radio" class="red" checked="checked" value="1"
+                                                <input type="radio" class="grey" checked="checked" value="1"
                                                        id="del_flag0" name="role.useable">
                                                 是
                                             </label>
                                             <label class="checkbox-inline">
-                                                <input type="radio" class="red" value="0" id="del_flag0"
+                                                <input type="radio" class="grey" value="0" id="del_flag1"
                                                        name="role.useable">
                                                 否
                                                 <c:if test="${vrole.role.useable=='0'}">checked</c:if>
@@ -213,8 +213,8 @@
                                         </div>
                                         <div class="form-group">
                                             <div class="col-sm-12 text-right">
-                                                <button type="submit" class="btn btn-primary btn-lg">保存</button>
-                                                <button type="button" class="btn btn-default btn-lg"
+                                                <button type="submit" class="btn btn-primary btn-lg btn-squared ">保存</button>
+                                                <button type="button" class="btn btn-default btn-lg btn-squared "
                                                         onclick="javascript:window.location.href='${basepath}/role/add'">
                                                     返回
                                                 </button>

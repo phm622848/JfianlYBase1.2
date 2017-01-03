@@ -69,7 +69,7 @@ public class UserService {
                     row.set(0, row.get(1));
                     row.set(1, row.get(2));
                     row.set(2, row.get(3));
-                    row.set(3, row.get(4));
+                    row.set(3, row.get(4).equals("null")?"":row.get(4));
                     row.set(4, typename);
 
                 }
