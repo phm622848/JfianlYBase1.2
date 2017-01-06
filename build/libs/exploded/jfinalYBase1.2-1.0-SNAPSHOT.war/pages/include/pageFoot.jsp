@@ -50,7 +50,7 @@
 <script src="${basepath}/static/rapido/assets/plugins/truncate/jquery.truncate.js"></script>
 <script src="${basepath}/static/rapido/assets/plugins/summernote/dist/summernote.min.js"></script>
 <script src="${basepath}/static/rapido/assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
-<script src="${basepath}/static/rapido/assets/plugins/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+<script src="${basepath}/static/rapido/assets/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
 <script src="${basepath}/static/rapido/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
 <script src="${basepath}/static/rapido/assets/js/subview.js"></script>
 <script src="${basepath}/static/frame/jquery-ztree/3.5.12/js/jquery.ztree.all-3.5.min.js"></script>

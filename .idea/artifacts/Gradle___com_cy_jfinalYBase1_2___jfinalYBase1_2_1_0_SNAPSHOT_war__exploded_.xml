@@ -10,10 +10,10 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/jfinalYBase1.2-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="jfinalYBase1.2/web/Web Gradle : jfinalYBase1.2-1.0-SNAPSHOT.war" />
+      <element id="javaee-facet-resources" facet="jfinalYBase1.2_main/web/Web Gradle : jfinalYBase1.2-1.0-SNAPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="jfinalYBase1.2" />
+          <element id="module-output" name="jfinalYBase1.2_main" />
           <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
         </element>
         <element id="directory" name="lib">

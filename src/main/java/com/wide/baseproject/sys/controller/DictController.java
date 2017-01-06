@@ -7,7 +7,9 @@ import java.util.UUID;
 
 import javax.servlet.http.HttpSession;
 
+import com.jfinal.kit.StrKit;
 import com.wide.base.BaseController;
+import com.wide.base.RenturnInfo;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 
 import com.wide.config.UserToken;
@@ -50,7 +52,7 @@ public class DictController extends BaseController {
 	/**
 	 * 跳转列表页
 	 */
-	@RequiresPermissions("dict:add")
+	//@RequiresPermissions("dict:add")
 	public void add() {
         renderCG("dictlist.jsp");
 
@@ -121,14 +123,24 @@ public class DictController extends BaseController {
 	 * 删除
 	 */
 	public void delete() {
+		returninfo = new RenturnInfo();
 		String id = getPara("id");
-		dictService.deldict(id);
-		logService.saveLog(EnumOptType.del.getEnumKey(),
-				EnumFuncType.dict.getEnumKey(), getCurrentUser()); // 数据字典删除日志保存
-		setAttr("message", "success");
-        renderCG("dictlist.jsp");
+		try{
+			if(id!=null&&!id.equals("")){
+				Db.update("update sys_dict set del_flag = 1 where id = ? ",id);
+			}
+			logService.saveLog(EnumOptType.del.getEnumKey(),
+					EnumFuncType.dict.getEnumKey(), getCurrentUser()); // 数据字典删除日志保存
+			returninfo.setResult(0);
+			returninfo.setResultInfo("删除成功！");
+		}catch(Exception ex){
+			ex.printStackTrace();
+			returninfo.setResult(1);
+			returninfo.setResultInfo("删除失败！");
+		}
+		setAttr("returninfo", returninfo);
+		renderJson();
 	}
-
 	/**
 	 * 字典树列表查询
 	 */
@@ -150,19 +162,15 @@ public class DictController extends BaseController {
 	public void dictkeycheck() {
 		String dictkey = getPara("dictkey");
 		String type = getPara("type");
-		String code = "0";
+		String bron = "true";
 		try {
-			if (dictkey.equals("") != true && type.equals("") != true) {
-				String sql = "select * from sys_dict where dictkey = '"
-						+ dictkey + "' and type = '" + type
-						+ "'   and del_flag ='0' ";
-				List<Record> userlist = new ArrayList<Record>();
-				userlist = Db.find(sql);
-				if (userlist.size() > 0) {
-					code = "1";
-				} 
-					renderJson(code);
-				
+			if (StrKit.notBlank(dictkey)&& StrKit.notBlank(type)) {
+				List<Dict> dictlist = new ArrayList<Dict>();
+				dictlist = Dict.dao.find("select * from sys_dict where dictkey = ? and type = ? and del_flag ='0' ",dictkey,type);
+				if (dictlist.size() > 0) {
+					bron = "false";
+				}
+				renderText(bron);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

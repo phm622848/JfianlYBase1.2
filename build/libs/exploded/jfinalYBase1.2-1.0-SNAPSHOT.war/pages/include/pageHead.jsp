@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/DataTables/media/css/jquery.dataTables.css">
 
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.css">
-    <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css">
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css">
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/treeTable/themes/vsStyle/treeTable.min.css" >
     <!-- end: CSS REQUIRED FOR THIS SUBVIEW CONTENTS-->

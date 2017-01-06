@@ -1,6 +1,6 @@
+var queryParamscg;
 //单独封装的代码
 (function($) {
- 
     var dGrid = {
         // 默认参数集
         defaults : {
@@ -10,10 +10,10 @@
             "bSort": false, //是否支持排序功能
             "sortname" : "", // 排序字段
             "sortorder" : "", // 排序顺序
-            "bLengthChange": false, //改变每页显示数据数量  
- 
+            "bLengthChange": false, //改变每页显示数据数量
+
             // DataTables自带参数修改默认值
-            "sDom" : "<'row-fluid'r>t<'row-fluid'<'span3'i><'span3'l><'span6'p>>",
+            "sDom": "<'row'<'col-md-6'l><'col-md-6'f>r>t<'row'<'col-md-6'i><'col-md-6'p>>",
             "sPaginationType" : "bootstrap",
             "oLanguage" : {
                 "sLengthMenu" : "每页显示_MENU_条记录",
@@ -44,27 +44,29 @@
             selectedTrClass : 'tr.row_selected'
         },
         // 设置后台查询参数
-        _setQueryParams : function(p, oSettings,otherParams) {
+        _setQueryParams : function(p, oSettings) {
             var prefix = '';
- 
+
             var cPage = Math.ceil(oSettings._iDisplayStart
-                    / oSettings._iDisplayLength);
+                / oSettings._iDisplayLength);
             // Grid查询参数
             var params = [{
                 name : prefix + 'page',
                 value : !isNaN(cPage) ? cPage + 1 : 1
-                }, {
+            }, {
                 name : prefix + 'rp',
                 value : oSettings._iDisplayLength
-                }, {
+            }, {
                 name : prefix + 'sortname',
                 value : p.sortColumn
-                }, {
+            }, {
                 name : prefix + 'sortorder',
                 value : p.sortOrder
             }];
-            if (otherParams) params=ccat(params,otherParams);
-           
+
+            if (p.params&&params.indexOf(p.params)==-1) {
+                params=ccat(params, p.params);
+            }
             return params;
         },
         //更新分页信息
@@ -82,14 +84,14 @@
             if(check){
                 var c = dGrid.constants;
                 if(check==c.checkSingle){
- 
+
                     $("tbody tr",$(obj)).bind("click",function(e){
                         if($(this).hasClass(c.selectedClass)){
                             $(this).removeClass(c.selectedClass);
                         } else {
-                          //  var dobj = $(obj).data(c.dataTableObjName);
+                            //  var dobj = $(obj).data(c.dataTableObjName);
                             $(this).parent().find("tr").removeClass(c.selectedClass);
-                           // dobj.$(c.selectedTrClass).removeClass(c.selectedClass);
+                            // dobj.$(c.selectedTrClass).removeClass(c.selectedClass);
                             $(this).addClass(c.selectedClass);
                         }
                     })
@@ -108,9 +110,9 @@
             var dobj = $(obj).data(c.dataTableObjName);
             return dobj.$(c.selectedTrClass);
         }
- 
+
     };
- 
+
     $.fn.extend({
         // 初始化DataTables - Ajax读取数据方式
         initDT : function(p) {
@@ -127,30 +129,30 @@
                 },
                 // 服务端数据回调处理
                 'fnServerData' : function(sSource, aoData, fnCallback,
-                        oSettings) {
+                                          oSettings) {
                     var params = oSettings.queryParams
-                            ? oSettings.queryParams
-                            : dGrid._setQueryParams(p, oSettings);
+                        ? oSettings.queryParams
+                        : dGrid._setQueryParams(p, oSettings);
                     oSettings.initParams = p.params;// 缓存初始化查询参数
                     dGrid._updatePageInfo(params, oSettings, aoData);// 更新分页信息
                     if (!oSettings.queryParams)
                         oSettings.queryParams = params;// 缓存组合分页查询参数后的参数集合
                     oSettings.jqXHR = $.ajax({
-                                "dataType" : 'json',
-                                "type" : "POST",
-                                "url" : sSource,
-                                "data" : params,
-                                "success" : function(result) {
-                                    result.iTotalRecords = result.total;
-                                    result.iTotalDisplayRecords = result.total;
-                                    //oSettings.ids = result.ids;
-                                    $this.data("ids",result.ids);
-                                    fnCallback(result);
-                                    if(result.ids!=null&&result.ids!=''){
-                                    	$("#resultids").val(result.ids);
-                                    }
-                                }
-                            });
+                        "dataType" : 'json',
+                        "type" : "POST",
+                        "url" : sSource,
+                        "data" : params,
+                        "success" : function(result) {
+                            result.iTotalRecords = result.total;
+                            result.iTotalDisplayRecords = result.total;
+                            //oSettings.ids = result.ids;
+                            $this.data("ids",result.ids);
+                            fnCallback(result);
+                            if(result.ids!=null&&result.ids!=''){
+                                $("#resultids").val(result.ids);
+                            }
+                        }
+                    });
                 },
                 'bServerSide' : true, // 是否服务端请求
                 'sAjaxDataProp' : "rows", // 服务端返回数据的json节点
@@ -190,17 +192,29 @@
                     var g = $(this).data(dGrid.constants.dataTableObjName);
                     var setting = g.fnSettings();
                     if(setting && setting.queryParams){
-                    	//p = $.extend({}, dGrid.defaults, p);
-                    	//dGrid._setQueryParams(p,setting,otherParam);
-                    	var paramstart =setting.queryParams;
-                    	var paramend =setting.queryParams;
-                    	if (otherParam) {
-                    		paramend=ccat(paramend,otherParam);
-                    		setting.queryParams=paramend;
-                    	}
-                     //   copyProperties(setting.queryParams, otherParam);
+                        var paramend =setting.queryParams;
+                        var str ='';
+                        $.each(paramend, function(idx, obj) {
+                            if(idx>3){
+                                return false;
+                            }
+                            var name = obj.name;
+                            var values = obj.value=='undefined'?'':obj.value;
+                            if(name=='page'){
+                                values = '1';
+                            }
+                            str = str+',{"name":"'+name+'","value":"'+values+'"}';
+                        });
+                        str ="["+str.substring(1,str.length)+"]";
+                        str=JSON.parse(str);
+                        if (otherParam) {
+                            paramend=ccat(str,otherParam);
+                            setting.queryParams=paramend;
+                        }
+                        queryParamscg = setting.queryParams;
+                        setting._iDisplayStart =0;
+                        //   copyProperties(setting.queryParams, otherParam);
                         g.fnDraw(setting);
-                        setting.queryParams=paramstart;
                     }
                 }
             });
@@ -292,15 +306,15 @@
             var g = $(this).data(dGrid.constants.dataTableObjName);
             var setting = g.fnSettings();
             if(setting && setting.queryParams){
-            	//p = $.extend({}, dGrid.defaults, p);
-            	//dGrid._setQueryParams(p,setting,otherParam);
-            	var paramstart =setting.queryParams;
-            	var paramend =setting.queryParams;
-            	if (otherParam) {
-            		paramend=ccat(paramend,otherParam);
-            		setting.queryParams=paramend;
-            	}
-             //   copyProperties(setting.queryParams, otherParam);
+                //p = $.extend({}, dGrid.defaults, p);
+                //dGrid._setQueryParams(p,setting,otherParam);
+                var paramstart =setting.queryParams;
+                var paramend =setting.queryParams;
+                if (otherParam) {
+                    paramend=ccat(paramend,otherParam);
+                    setting.queryParams=paramend;
+                }
+                //   copyProperties(setting.queryParams, otherParam);
                 setting.queryParams=paramstart;
             }
             g.fnPageChange('next');
@@ -310,15 +324,15 @@
             var g = $(this).data(dGrid.constants.dataTableObjName);
             var setting = g.fnSettings();
             if(setting && setting.queryParams){
-            	//p = $.extend({}, dGrid.defaults, p);
-            	//dGrid._setQueryParams(p,setting,otherParam);
-            	var paramstart =setting.queryParams;
-            	var paramend =setting.queryParams;
-            	if (otherParam) {
-            		paramend=ccat(paramend,otherParam);
-            		setting.queryParams=paramend;
-            	}
-             //   copyProperties(setting.queryParams, otherParam);
+                //p = $.extend({}, dGrid.defaults, p);
+                //dGrid._setQueryParams(p,setting,otherParam);
+                var paramstart =setting.queryParams;
+                var paramend =setting.queryParams;
+                if (otherParam) {
+                    paramend=ccat(paramend,otherParam);
+                    setting.queryParams=paramend;
+                }
+                //   copyProperties(setting.queryParams, otherParam);
                 setting.queryParams=paramstart;
             }
             g.fnPageChange('previous');
@@ -336,14 +350,9 @@
     });
 })(jQuery);
 
-function copyProperties(myNewObj,myObj){  
-	  var myNewObj = jQuery.extend(true,{}, myObj); 
-	 
-	  return myNewObj;  
-}  
 function ccat(aaary,baary) {
     for (var i = 0; i < baary.length; i++) {
-    	aaary = aaary.concat(baary[i])
+        aaary = aaary.concat(baary[i])
     }
     return aaary
 }
@@ -361,8 +370,8 @@ $.fn.dataTableExt.oApi.fnPagingInfo = function ( oSettings )
         "iTotalPages":    Math.ceil( oSettings.fnRecordsDisplay() / oSettings._iDisplayLength )
     };
 };
- 
- 
+
+
 /* Bootstrap style pagination control */
 $.extend( $.fn.dataTableExt.oPagination, {
     "bootstrap": {
@@ -374,23 +383,24 @@ $.extend( $.fn.dataTableExt.oPagination, {
                     fnDraw( oSettings );
                 }
             };
-            $(nPaging).append(
+
+            $(nPaging).addClass('pagination').append(
                 '<ul class="pagination pagination-blue">'+
-                    '<li class="prev disabled"><a href="#"><i class="fa fa-chevron-left"></i>'+oLang.sPrevious+'</a></li>'+
-                    '<li class="next disabled"><a href="#">'+oLang.sNext+' <i class="fa fa-chevron-right"></i></a></li>'+
-                    '</ul>'
+                '<li class="prev disabled"><a href="#"><i class="fa fa-chevron-left"></i> '+oLang.sPrevious+'</a></li>'+
+                '<li class="next disabled"><a href="#">'+oLang.sNext+' <i class="fa fa-chevron-right"> </a></li>'+
+                '</ul>'
             );
             var els = $('a', nPaging);
             $(els[0]).bind( 'click.DT', { action: "previous" }, fnClickHandler );
             $(els[1]).bind( 'click.DT', { action: "next" }, fnClickHandler );
         },
- 
+
         "fnUpdate": function ( oSettings, fnDraw ) {
             var iListLength = 5;
             var oPaging = oSettings.oInstance.fnPagingInfo();
             var an = oSettings.aanFeatures.p;
             var i, j, sClass, iStart, iEnd, iHalf=Math.floor(iListLength/2);
- 
+
             if ( oPaging.iTotalPages < iListLength) {
                 iStart = 1;
                 iEnd = oPaging.iTotalPages;
@@ -405,11 +415,11 @@ $.extend( $.fn.dataTableExt.oPagination, {
                 iStart = oPaging.iPage - iHalf + 1;
                 iEnd = iStart + iListLength - 1;
             }
- 
+
             for ( i=0, iLen=an.length ; i<iLen ; i++ ) {
                 // Remove the middle elements
                 $('li:gt(0)', an[i]).filter(':not(:last)').remove();
- 
+
                 // Add the new list items and their event handlers
                 for ( j=iStart ; j<=iEnd ; j++ ) {
                     sClass = (j==oPaging.iPage+1) ? 'class="active"' : '';
@@ -418,17 +428,18 @@ $.extend( $.fn.dataTableExt.oPagination, {
                         .bind('click', function (e) {
                             e.preventDefault();
                             oSettings._iDisplayStart = (parseInt($('a', this).text(),10)-1) * oPaging.iLength;
+                            oSettings.queryParams =queryParamscg
                             fnDraw( oSettings );
                         } );
                 }
- 
+
                 // Add / remove disabled classes from the static elements
                 if ( oPaging.iPage === 0 ) {
                     $('li:first', an[i]).addClass('disabled');
                 } else {
                     $('li:first', an[i]).removeClass('disabled');
                 }
- 
+
                 if ( oPaging.iPage === oPaging.iTotalPages-1 || oPaging.iTotalPages === 0 ) {
                     $('li:last', an[i]).addClass('disabled');
                 } else {
