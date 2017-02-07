@@ -17,8 +17,6 @@
     <meta content="" name="author" />
 
     <!-- CSS -->
-    <link href="${basepath}/static/frame/jquery-ztree/3.5.12/css/zTreeStyle/zTreeStyle.min.css"  rel="stylesheet" media="screen">
-
     <!-- end: META -->
     <!-- start: MAIN CSS -->
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -53,8 +51,9 @@
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/css/styles.css">
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/css/styles-responsive.css">
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/css/plugins.css">
-    <link rel="stylesheet" href="${basepath}/static/rapido/assets/css/themes/theme-style7.css" type="text/css" id="skin_color">
+    <link rel="stylesheet" href="${basepath}/static/rapido/assets/css/themes/theme-style4.css" type="text/css" id="skin_color">
     <link rel="stylesheet" href="${basepath}/static/rapido/assets/css/print.css" type="text/css" media="print"/>
+    <link rel="stylesheet" href="${basepath}/static/rapido/assets/plugins/jquery-ztree/3.5.12/css/zTreeStyle/zTreeStyle.css"  rel="stylesheet" media="screen">
     <!-- end: CORE CSS -->
     <link rel="shortcut icon" href="favicon.ico" />
 

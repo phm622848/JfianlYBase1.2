@@ -49,12 +49,12 @@
                             </ul>
                             <div class="tab-content">
                                 <div class="panel-body">
-                                    <div class="alert alert-success text-center"
+                                    <div class="alert alert-success text-center no-display"
                                          id="successmessage">
                                         <button class="close" onclick="$('#successmessage').hide();">&times;</button>
                                         <strong><span id="messagess"></span></strong>
                                     </div>
-                                    <div class="alert alert-error text-center"
+                                    <div class="alert alert-danger text-center no-display"
                                          id="errormessage">
                                         <button class="close" onclick="$('#errormessage').hide();">&times;</button>
                                         <strong><span id="messageee"></span></strong>

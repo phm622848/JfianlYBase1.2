@@ -57,7 +57,7 @@ public class MenuController extends BaseController
 		setAttr("pmenu", pmenu);
 		String mark = getPara("message");
 		setAttr("message", mark);
-        renderCG("menuinfo.jsp");
+		renderLG("menuinfo.jsp");
 	}
 
 	/**

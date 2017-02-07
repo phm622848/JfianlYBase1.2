@@ -228,7 +228,7 @@ public class UserController extends BaseController {
 		setAttr("offids", officeids);
 		setAttr("roleids", roleids);
 		setAttr("officenames", officenames);
-        renderCG("userInfo.jsp");
+		renderLG("userInfo.jsp");
 	}
 
 	/**

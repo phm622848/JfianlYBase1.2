@@ -9,6 +9,7 @@ import javax.servlet.http.HttpSession;
 import com.jfinal.aop.Clear;
 import com.jfinal.aop.Enhancer;
 import com.jfinal.core.Controller;
+import com.jfinal.kit.StrKit;
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
 import com.wide.base.BaseController;
@@ -149,7 +150,7 @@ public class OfficeController extends BaseController {
 		setAttr("areaid", areaid);
 		setAttr("parentId", pid);
 		setAttr("message", mark);
-		renderCG("officeInfo.jsp");
+		renderLG("officeInfo.jsp");
 	}
 
 	/**
@@ -162,6 +163,7 @@ public class OfficeController extends BaseController {
 		office.setUpdateBy(getCurrentUser().getId());
 		office.setUpdateDate(new Date());
 		Office oldoffice = officeService.getOfficeByid(office.getParentId());
+		Office lastOffice = new Office();
 		if (oldoffice == null) {
 			oldoffice = new Office();
 		}
@@ -169,7 +171,16 @@ public class OfficeController extends BaseController {
 		office.setAreaId(office.getAreaId() == null ? "" : office.getAreaId());
 		office.setParentId(office.getParentId() == null ? "" : office
 				.getParentId());
-		if (office.getId() != null && !office.getId().equals("")) {
+		if (StrKit.notBlank(office.getId())) {
+			lastOffice = officeService.getOfficeByid(office.getId());
+			if(!lastOffice.getParentId().equals(office.getParentId())){
+				String maxsort = officeService.findMaxSort(office.getParentId());
+				office.setSort(CGUtil.createSort(
+						oldoffice.getSort() == null
+								|| oldoffice.getSort().equals("") ? 0.0 : oldoffice
+								.getSort(), Double.parseDouble(maxsort == null
+								|| maxsort.equals("") ? "0" : maxsort)));
+			}
 			office.update();
 			logService.saveLog(EnumOptType.edit.getEnumKey(),
 					EnumFuncType.office.getEnumKey(), getCurrentUser()); // 机构修改日志保存

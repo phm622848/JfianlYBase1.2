@@ -26,30 +26,12 @@ import com.jfinal.aop.Enhancer;
 import com.jfinal.core.Controller;
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
-
 public class AreaController extends BaseController
 {
 	private static final AreaService areaService = Enhancer.enhance(AreaService.class);
 	private static final UserService userService = Enhancer.enhance(UserService.class);
 	private static final DictService dictService = Enhancer.enhance(DictService.class);
 	private static final LogService logService = Enhancer.enhance(LogService.class);
-	
-
-	public static AreaService getAreaservice() {
-		return areaService;
-	}
-
-	public static UserService getUserservice() {
-		return userService;
-	}
-
-	public static DictService getDictservice() {
-		return dictService;
-	}
-
-	public static LogService getLogservice() {
-		return logService;
-	}
 
 	/**
 	 * 获取当前用户
@@ -114,7 +96,7 @@ public class AreaController extends BaseController
 		setAttr("parea", parea);
 		String mark = getPara("message");
 		setAttr("message", mark);
-        renderCG("areainfo.jsp");
+		renderLG("areainfo.jsp");
 	}
 	
 	@Clear

@@ -114,7 +114,7 @@ public class RoleController extends BaseController {
 		// setAttr("rightids",vrole.getRightids());
 		// setAttr("offids",vrole.getOffids());
 		setAttr("message", mark);
-        renderCG("roleInfo.jsp");
+		renderLG("roleInfo.jsp");
 	}
 
 	/**

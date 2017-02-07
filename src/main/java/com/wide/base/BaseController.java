@@ -58,7 +58,7 @@ public class BaseController extends Controller{
 
 	/**
 	 * @author cg
-     * 重写render
+     * 重写render 没有页签的或者首个页签用次方法
 	 * */
 
 	public void renderCG(String view){
@@ -72,7 +72,28 @@ public class BaseController extends Controller{
 	    setAttr("menuidcg",menu.getId());//写入menu的本层id作为左边栏展开条件
 	    this.render(view);
     }
+	/**
+	 * @author cg
+	 * 重写render 切换的页签用此方法
+	 * */
 
+	public void renderLG(String view){
+		List<Menu> menulist= new ArrayList<Menu>();
+		List<Menu> pmenulist = new ArrayList<Menu>();
+		menulist = Menu.dao.find("select * from sys_menu where href = ? ",this.getRequest().getServletPath());
+		Menu menu = new Menu();
+		Menu pmenu = new Menu();
+		if(menulist.size()>0){
+			menu = menulist.get(0);
+		}
+		pmenulist = Menu.dao.find("select * from sys_menu where id = ? ",menu.getParentId());
+		if(pmenulist.size()>0){
+			pmenu = pmenulist.get(0);
+		}
+		setAttr("menuparentidcg",pmenu.getParentId());//写入menu上层的id作为左边栏展开条件
+		setAttr("menuidcg",pmenu.getId());//写入menu的本层id作为左边栏展开条件
+		this.render(view);
+	}
 
 
 

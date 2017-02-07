@@ -4,6 +4,7 @@ package com.wide.config;
 
 import com.alibaba.druid.filter.stat.StatFilter;
 import com.alibaba.druid.wall.WallFilter;
+import com.jfinal.template.Engine;
 import com.wide.interceptor.LoginInterceptor;
 import com.wide.common.model._MappingKit;
 import com.wide.route.SysRoutes;
@@ -106,5 +107,10 @@ public class _BaseConfig extends JFinalConfig {
 		me.add(dvh);
 		me.add(new JspSkipHandler());
 	}
-	
+
+	/**
+	 * 配置前台模版
+	 * */
+	public void configEngine(Engine me) {
+	}
 }

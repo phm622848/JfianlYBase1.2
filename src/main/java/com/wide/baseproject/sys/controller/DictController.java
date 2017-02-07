@@ -116,7 +116,7 @@ public class DictController extends BaseController {
 		String id = getPara("id");
 		Dict dict = dictService.getDictById(id);
 		setAttr("dict", dict);
-        renderCG("dictinfo.jsp");
+		renderLG("dictinfo.jsp");
 	}
 
 	/**
